@@ -1,0 +1,1 @@
+eqfeed_callback({"type":"FeatureCollection","metadata":{"generated": 1429958861000,"url": "http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week","title": "USGS Magnitude 2.5+ Earthquakes, Past Week","subTitle": "Real-time, worldwide earthquake list for the past week", "cacheMaxAge": 60},"features":[
