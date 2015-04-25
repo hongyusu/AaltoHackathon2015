@@ -92,7 +92,7 @@ class Route(object):
                                 nodeNum += 1
 
                         #update node link list
-                        if parent_node is not None and parent_node.id != cur_node.id and cur_node not in parent_node.next:
+                        if parent_node is not None and parent_node.id != cur_node.id and cur_node not in parent_node.next and parent_node not in cur_node.next:
                                 parent_node.next.append(cur_node)
                         else:
                                 self.head = cur_node
@@ -115,7 +115,7 @@ def writeMap():
         with open(mapInfoPath, 'w') as mf:
                 for indexKey, node in NodeIndex.items():
                         if len(node.next):
-                                mf.writelines('\n'.join(['{0} {1}: {2}'.format(node.id, neighbor.id, haversine(node.lng, node.lat, neighbor.lng, neighbor.lat)) for neighbor in node.next])+'\n')
+                                mf.writelines('\n'.join(['{0} {1} {2}'.format(node.id, neighbor.id, haversine(node.lng, node.lat, neighbor.lng, neighbor.lat)) for neighbor in node.next])+'\n')
 
 def generateMap(dataPath):
         whole = 0#whole data or partial routes in file
