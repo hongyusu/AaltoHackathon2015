@@ -19,6 +19,11 @@
   file: track_selection.py
 
 
+**location-specific sum of distance**
+==
+  file: loc2dist.py
+
+
 **generate KML file for tracks of a city**
 ==
   file: compute_kml_from_track_basic_information.py
