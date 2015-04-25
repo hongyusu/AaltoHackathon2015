@@ -506,6 +506,11 @@ var Hyperlapse = function(container, params) {
 	var loop = function() {
 		drawMaterial();
 
+		if(++_point_index == _h_points.length) {
+			_point_index = _h_points.length-1;
+			_forward = !_forward;
+		}
+		/*
 		if(_forward) {
 			if(++_point_index == _h_points.length) {
 				_point_index = _h_points.length-1;
@@ -517,6 +522,7 @@ var Hyperlapse = function(container, params) {
 				_forward = !_forward;
 			}
 		}
+		*/
 	};
 
 
