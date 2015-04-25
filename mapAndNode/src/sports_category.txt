@@ -1,0 +1,55 @@
+Cycling, transport ../Data/workouts_anonymized/workout_1.txt
+Hiking ../Data/workouts_anonymized/workout_10.txt
+Weight training ../Data/workouts_anonymized/workout_100.txt
+Running ../Data/workouts_anonymized/workout_1000.txt
+Cycling, sport ../Data/workouts_anonymized/workout_10003.txt
+Treadmill walking ../Data/workouts_anonymized/workout_10005.txt
+Mountain biking ../Data/workouts_anonymized/workout_10006.txt
+Step counter ../Data/workouts_anonymized/workout_1001.txt
+Indoor cycling ../Data/workouts_anonymized/workout_10013.txt
+Walking ../Data/workouts_anonymized/workout_10016.txt
+Swimming ../Data/workouts_anonymized/workout_10035.txt
+Windsurfing ../Data/workouts_anonymized/workout_10061.txt
+Squash ../Data/workouts_anonymized/workout_10067.txt
+Yoga ../Data/workouts_anonymized/workout_10074.txt
+Treadmill running ../Data/workouts_anonymized/workout_10078.txt
+Aerobics ../Data/workouts_anonymized/workout_10087.txt
+Fitness walking ../Data/workouts_anonymized/workout_10120.txt
+Tennis ../Data/workouts_anonymized/workout_1017.txt
+Elliptical training ../Data/workouts_anonymized/workout_10188.txt
+Basketball ../Data/workouts_anonymized/workout_10302.txt
+Circuit Training ../Data/workouts_anonymized/workout_10320.txt
+Dancing ../Data/workouts_anonymized/workout_10328.txt
+Climbing stairs ../Data/workouts_anonymized/workout_10329.txt
+Martial arts ../Data/workouts_anonymized/workout_10340.txt
+Other ../Data/workouts_anonymized/workout_10367.txt
+Skating ../Data/workouts_anonymized/workout_10454.txt
+Skiing, cross country ../Data/workouts_anonymized/workout_10486.txt
+Boxing ../Data/workouts_anonymized/workout_1052.txt
+Football, soccer ../Data/workouts_anonymized/workout_10533.txt
+Skiing, downhill ../Data/workouts_anonymized/workout_10539.txt
+Snowboarding ../Data/workouts_anonymized/workout_10543.txt
+Rowing ../Data/workouts_anonymized/workout_10546.txt
+Roller skiing ../Data/workouts_anonymized/workout_10714.txt
+Gymnastics ../Data/workouts_anonymized/workout_10867.txt
+Golfing ../Data/workouts_anonymized/workout_10996.txt
+Skateboarding ../Data/workouts_anonymized/workout_11025.txt
+Pilates ../Data/workouts_anonymized/workout_11212.txt
+Climbing ../Data/workouts_anonymized/workout_11402.txt
+Sailing ../Data/workouts_anonymized/workout_1184.txt
+Wheelchair ../Data/workouts_anonymized/workout_11876.txt
+Riding ../Data/workouts_anonymized/workout_1192.txt
+Kayaking ../Data/workouts_anonymized/workout_11946.txt
+Volleyball, indoor ../Data/workouts_anonymized/workout_12146.txt
+Hockey ../Data/workouts_anonymized/workout_13732.txt
+Snowshoeing ../Data/workouts_anonymized/workout_13751.txt
+Orienteering ../Data/workouts_anonymized/workout_14191.txt
+Badminton ../Data/workouts_anonymized/workout_14593.txt
+Football, American ../Data/workouts_anonymized/workout_14803.txt
+Table tennis ../Data/workouts_anonymized/workout_15490.txt
+Kite surfing ../Data/workouts_anonymized/workout_15997.txt
+Cricket ../Data/workouts_anonymized/workout_16200.txt
+Volleyball, beach ../Data/workouts_anonymized/workout_16953.txt
+Handball ../Data/workouts_anonymized/workout_18128.txt
+Baseball ../Data/workouts_anonymized/workout_43609.txt
+Surfing ../Data/workouts_anonymized/workout_43836.txt
