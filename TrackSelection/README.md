@@ -8,6 +8,8 @@
 	select major cities, and get gps location of city center
 
 	for each city select workout within 10km radius of the center
+	
+	use London, New York to generate map
 
 
 
