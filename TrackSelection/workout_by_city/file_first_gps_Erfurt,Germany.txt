@@ -1,5 +1,0 @@
-workout_141.txt 11.047047 50.981397 'Running' 'user_4842' '10.03 km'
-workout_21346.txt 11.042267 50.980267 'Running' 'user_4842' '3.13 mi'
-workout_27389.txt 11.040453 50.980476 'Running' 'user_4842' '8.08 km'
-workout_35010.txt 11.045368 50.980014 'Running' 'user_4842' '6.45 km'
-workout_7500.txt 11.024642 50.977643 'Hiking' 'user_7384' '1.51 mi'

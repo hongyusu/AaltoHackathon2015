@@ -1,3 +1,3 @@
-workout_10317.txt 50.171178 26.307674 'Walking' 'user_358' '0.00 km'
-workout_18.txt 50.171463 26.307525 'Walking' 'user_358' '1.22 km'
-workout_28664.txt 50.1682702 26.3066241 'Walking' 'user_3221' '1.83 mi'
+workout_10317.txt 50.171178 26.307674 'Walking' 'user_358' '0.00 km' 'Feb 28, 2015 11:44 AM' na na '2 kcal'
+workout_18.txt 50.171463 26.307525 'Walking' 'user_358' '1.22 km' 'Feb 28, 2015 11:45 AM' '4.4 km/h' '11.9 km/h' '74 kcal'
+workout_28664.txt 50.1682702 26.3066241 'Walking' 'user_3221' '1.83 mi' 'Feb 28, 2015 9:40 AM' '4.2 mph' '22.7 mph' '268 kcal'

@@ -1,5 +1,0 @@
-workout_17513.txt -71.3655663 42.6875337 'Circuit Training' 'user_527' '0.00 mi'
-workout_20959.txt -71.3735904 42.6660338 'Snowshoeing' 'user_527' '3.20 km'
-workout_23812.txt -71.3655761 42.6874853 'Circuit Training' 'user_527' '0.01 km'
-workout_35029.txt -71.3655864 42.6875102 'Circuit Training' 'user_527' '0.01 km'
-workout_35818.txt -71.3654882 42.6875957 'Circuit Training' 'user_527' '0.00 mi'

@@ -1,2 +1,1 @@
-workout_19815.txt -114.91152844391763 35.97277988679707 'Cycling, sport' 'user_3059' '27.18 km'
-workout_34714.txt -114.7936329 36.0116482 'Hiking' 'user_5486' '11.54 km'
+workout_34714.txt -114.7936329 36.0116482 'Hiking' 'user_5486' '11.54 km' 'Mar 15, 2015 5:05 PM' '11.1 km/h' '21.5 km/h' '481 kcal'

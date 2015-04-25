@@ -1,4 +1,0 @@
-workout_21362.txt -117.184157 34.053983 'Running' 'user_5692' '3.18 mi'
-workout_24420.txt -117.18479 34.052621 'Cycling, sport' 'user_5692' '4.99 km'
-workout_30394.txt -117.297599 34.055416 'Walking' 'user_5692' '5.10 km'
-workout_4738.txt -117.293496 34.053574 'Running' 'user_5692' '4.57 km'

@@ -1,1 +1,1 @@
-workout_46262.txt -116.557163 43.524658 'Running' 'user_4629' '2.03 mi'
+workout_46262.txt -116.557163 43.524658 'Running' 'user_4629' '2.03 mi' 'Mar 1, 2015 6:03 PM' na na '287 kcal'

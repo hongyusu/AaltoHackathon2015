@@ -1,1 +1,1 @@
-workout_13170.txt 14.4021497 67.2902955 'Fitness walking' 'user_9538' '6.73 km'
+workout_13170.txt 14.4021497 67.2902955 'Fitness walking' 'user_9538' '6.73 km' 'Mar 16, 2015 5:24 PM' '5.9 km/h' '12.4 km/h' '639 kcal'

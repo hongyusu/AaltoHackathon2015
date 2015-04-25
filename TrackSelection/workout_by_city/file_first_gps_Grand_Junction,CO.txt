@@ -1,5 +1,0 @@
-workout_56126.txt -108.52758 39.061477 'Cycling, sport' 'user_6922' '0.04 km'
-workout_56197.txt -108.52767 39.061382 'Cycling, sport' 'user_6922' '32.93 km'
-workout_5798.txt -108.527697 39.061378 'Cycling, sport' 'user_6922' '32.62 km'
-workout_57992.txt -108.527701 39.061428 'Walking' 'user_6922' '7.37 km'
-workout_66047.txt -108.630858 39.031962 'Walking' 'user_6922' '3.48 km'

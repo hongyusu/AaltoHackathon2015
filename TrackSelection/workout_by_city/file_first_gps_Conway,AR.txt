@@ -1,2 +1,2 @@
-workout_13290.txt -92.45988 35.053196 'Cycling, sport' 'user_10643' '7.63 km'
-workout_56958.txt -92.459891 35.053145 'Walking' 'user_10643' '3.21 km'
+workout_13290.txt -92.45988 35.053196 'Cycling, sport' 'user_10643' '7.63 km' 'Mar 22, 2015 12:23 AM' '10.7 km/h' '20.7 km/h' '402 kcal'
+workout_56958.txt -92.459891 35.053145 'Walking' 'user_10643' '3.21 km' 'Mar 24, 2015 2:18 PM' '5.5 km/h' '11.0 km/h' '359 kcal'

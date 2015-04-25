@@ -1,2 +1,0 @@
-workout_29959.txt 12.059273 49.438478 'Running' 'user_311' '13.78 mi'
-workout_53610.txt 12.0594 49.438435 'Running' 'user_311' '12.89 mi'

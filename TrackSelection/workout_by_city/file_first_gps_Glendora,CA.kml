@@ -38,13 +38,6 @@
 	  <Point>
 	    <coordinates>-117.863106,34.109541</coordinates>
 </Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-117.937647,34.143249</coordinates>
-</Point>
 </Placemark>  
 </Document>
 </kml>

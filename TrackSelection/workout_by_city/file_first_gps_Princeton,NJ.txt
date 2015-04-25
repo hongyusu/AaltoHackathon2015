@@ -1,1 +1,0 @@
-workout_35192.txt -74.647842 40.264826 'Mountain biking' 'user_6487' '7.91 mi'

@@ -1,3 +1,2 @@
-workout_22495.txt -101.826163 33.576105 'Hiking' 'user_6505' '2.72 km'
-workout_36133.txt -101.900935 33.578505 'Treadmill running' 'user_886' '0.02 mi'
-workout_52458.txt -101.876148 33.57504 'Cycling, transport' 'user_6505' '18.53 km'
+workout_22495.txt -101.826163 33.576105 'Hiking' 'user_6505' '2.72 km' 'Mar 7, 2015 1:01 AM' '1.6 km/h' '15.3 km/h' '915 kcal'
+workout_52458.txt -101.876148 33.57504 'Cycling, transport' 'user_6505' '18.53 km' 'Mar 25, 2015 1:29 AM' '18.4 km/h' '32.0 km/h' '644 kcal'

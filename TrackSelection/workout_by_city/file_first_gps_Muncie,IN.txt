@@ -1,3 +1,3 @@
-workout_13267.txt -85.4151565 40.1853627 'Cycling, sport' 'user_7835' '17.05 km'
-workout_40463.txt -85.4182403 40.2274401 'Running' 'user_5893' '3.01 mi'
-workout_51294.txt -85.4179117 40.2275082 'Running' 'user_5893' '5.09 km'
+workout_13267.txt -85.4151565 40.1853627 'Cycling, sport' 'user_7835' '17.05 km' 'Mar 16, 2015 6:39 PM' '21.7 km/h' '53.9 km/h' '1551 kcal'
+workout_40463.txt -85.4182403 40.2274401 'Running' 'user_5893' '3.01 mi' 'Mar 4, 2015 5:05 PM' na na '464 kcal'
+workout_51294.txt -85.4179117 40.2275082 'Running' 'user_5893' '5.09 km' 'Mar 11, 2015 3:43 PM' na na '490 kcal'

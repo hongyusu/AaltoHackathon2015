@@ -1,6 +1,0 @@
-workout_11346.txt -155.8722057 19.9414829 'Fitness walking' 'user_3615' '0.81 km'
-workout_27713.txt -155.8748146 19.9312671 'Fitness walking' 'user_3615' '6.85 km'
-workout_3886.txt -155.8869843 19.9214174 'Fitness walking' 'user_3615' '1.71 km'
-workout_4911.txt -155.8748761 19.9312387 'Fitness walking' 'user_3615' '5.02 km'
-workout_66315.txt -155.8748139 19.931284 'Fitness walking' 'user_3615' '5.22 km'
-workout_67508.txt -155.8602506 19.9554917 'Fitness walking' 'user_3615' '1.63 km'

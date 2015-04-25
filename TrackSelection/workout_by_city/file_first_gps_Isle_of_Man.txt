@@ -1,4 +1,1 @@
-workout_15529.txt -4.5335278 54.1553386 'Walking' 'user_4634' '7.61 km'
-workout_55905.txt -4.6821149 54.2199712 'Running' 'user_10086' '6.15 km'
-workout_64710.txt -4.707595 54.138412 'Hiking' 'user_6063' '9.22 km'
-workout_8943.txt -4.614394 54.128142 'Riding' 'user_11437' '4.25 km'
+workout_8943.txt -4.614394 54.128142 'Riding' 'user_11437' '4.25 km' 'Mar 25, 2015 6:44 PM' '6.8 km/h' '15.9 km/h' '314 kcal'

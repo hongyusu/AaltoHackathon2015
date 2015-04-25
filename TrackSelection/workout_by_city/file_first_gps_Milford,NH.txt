@@ -1,1 +1,0 @@
-workout_2662.txt -71.616671 42.865132 'Elliptical training' 'user_2708' '0.00 km'

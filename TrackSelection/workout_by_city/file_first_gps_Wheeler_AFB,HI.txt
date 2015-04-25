@@ -1,1 +1,0 @@
-workout_61682.txt -157.913464 21.339983 'Cycling, transport' 'user_8419' '6.57 mi'

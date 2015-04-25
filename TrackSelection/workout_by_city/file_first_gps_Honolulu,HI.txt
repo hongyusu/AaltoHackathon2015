@@ -1,3 +1,0 @@
-workout_33830.txt -157.985419 21.3254 'Walking' 'user_9593' '4.99 km'
-workout_4549.txt -157.979081 21.320563 'Walking' 'user_9593' '0.53 mi'
-workout_61682.txt -157.913464 21.339983 'Cycling, transport' 'user_8419' '6.57 mi'
