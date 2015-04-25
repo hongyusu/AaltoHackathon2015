@@ -47,7 +47,7 @@ class Node(object):
                 self.next = []
 
         def nodeInfo(self):
-                return "%d:%d %d %d\n"%(self.id, self.lng, self.lat, self.alt)
+                return "%d:%f %f %f\n"%(self.id, self.lng, self.lat, self.alt)
 
 class Route(object):
         '''
@@ -59,6 +59,7 @@ class Route(object):
 
         def generate_route(self, infoStr):
                 global nodeNum
+                global NodeIndex
                 '''
                         update the whole node list and generate node link list
                 '''
@@ -72,6 +73,7 @@ class Route(object):
                         lng = 0
                         lat = 0
                         try:
+                                #print info['lng'], info['lat']
                                 lng = center(info['lng'])
                                 lat = center(info['lat'])
                                 alt = info['values']['alt']  
@@ -80,7 +82,7 @@ class Route(object):
                                 #_log_file.error("value missing:%s"%str(e)) 
                                 pass
 
-                        indexKey = "%s,%s"%(lng, lat)
+                        indexKey = "%f,%f"%(lng, lat)
                         #update whole node dic
                         try:
                                 cur_node = NodeIndex[indexKey]
