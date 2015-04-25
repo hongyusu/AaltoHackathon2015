@@ -1,0 +1,6 @@
+workout_13186.txt -73.4895689 45.4173757 'Weight training' 'user_5896' '0.83 mi'
+workout_24401.txt -73.4895052 45.417364 'Weight training' 'user_5896' '0.94 mi'
+workout_39113.txt -73.4892776 45.4174091 'Weight training' 'user_5896' '1.68 km'
+workout_41975.txt -73.4892407 45.4172907 'Weight training' 'user_5896' '1.93 km'
+workout_50489.txt -73.4891484 45.4173645 'Weight training' 'user_5896' '1.94 km'
+workout_8735.txt -73.4893742 45.4174565 'Weight training' 'user_5896' '0.97 km'

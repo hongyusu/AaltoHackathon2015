@@ -1,0 +1,1 @@
+workout_4454.txt 12.240688 45.496125 'Walking' 'user_3697' '0.47 km'

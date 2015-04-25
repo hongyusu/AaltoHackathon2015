@@ -1,0 +1,6 @@
+workout_15676.txt -84.249285 34.0393708 'Walking' 'user_641' '7.24 km'
+workout_30467.txt -84.191237 34.173991 'Running' 'user_10108' '2.43 km'
+workout_32283.txt -84.3448465 34.0345724 'Elliptical training' 'user_11805' '0.01 km'
+workout_50453.txt -84.194587 34.1813661 'Cycling, transport' 'user_10612' '22.09 km'
+workout_51409.txt -84.3468425 33.9165056 'Running' 'user_9680' '2.54 mi'
+workout_58856.txt -84.2491956 34.0393496 'Walking' 'user_641' '7.80 km'

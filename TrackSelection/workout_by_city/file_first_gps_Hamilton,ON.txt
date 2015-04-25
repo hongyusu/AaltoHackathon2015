@@ -1,0 +1,7 @@
+workout_13294.txt -79.8061952 43.1942307 'Running' 'user_10112' '5.01 km'
+workout_27220.txt -79.8196443 43.2141718 'Walking' 'user_7606' '3.74 km'
+workout_28321.txt -79.813503 43.229279 'Climbing stairs' 'user_10245' '1.16 km'
+workout_4624.txt -79.8196766 43.2141776 'Walking' 'user_7606' '1.57 mi'
+workout_50364.txt -79.8524145 43.2428921 'Climbing stairs' 'user_7606' '0.91 mi'
+workout_60312.txt -79.8166937 43.2146289 'Walking' 'user_7606' '5.20 km'
+workout_66464.txt -79.8198632 43.2142843 'Walking' 'user_7606' '7.44 km'

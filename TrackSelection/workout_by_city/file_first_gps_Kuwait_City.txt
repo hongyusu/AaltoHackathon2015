@@ -1,0 +1,5 @@
+workout_25329.txt 48.061189 29.101529 'Golfing' 'user_356' '6.34 km'
+workout_39828.txt 48.061283 29.101529 'Golfing' 'user_356' '8.03 km'
+workout_44059.txt 48.06113 29.101576 'Golfing' 'user_356' '4.19 mi'
+workout_54297.txt 48.061207 29.101336 'Golfing' 'user_356' '6.53 km'
+workout_56035.txt 48.061213 29.101418 'Golfing' 'user_356' '6.74 km'

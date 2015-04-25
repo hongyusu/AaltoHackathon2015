@@ -1,0 +1,3 @@
+workout_41354.txt -85.865358 37.691044 'Handball' 'user_1461' '0.04 km'
+workout_57189.txt -85.865395 37.690956 'Handball' 'user_1461' '0.19 km'
+workout_6615.txt -85.865388 37.690961 'Handball' 'user_1461' '0.60 km'

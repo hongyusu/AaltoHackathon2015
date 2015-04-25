@@ -1,0 +1,5 @@
+workout_10874.txt -88.73739 37.164459 'Walking' 'user_10253' '0.20 km'
+workout_16970.txt -88.711451 37.1479 'Walking' 'user_10253' '1.50 km'
+workout_21623.txt -88.716181 37.144518 'Walking' 'user_10253' '0.00 km'
+workout_47521.txt -88.737363 37.164529 'Walking' 'user_10253' '0.00 km'
+workout_53252.txt -88.711575 37.147829 'Walking' 'user_10253' '0.71 km'

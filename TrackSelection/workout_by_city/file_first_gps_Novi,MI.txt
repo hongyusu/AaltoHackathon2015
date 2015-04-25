@@ -1,0 +1,1 @@
+workout_47444.txt -83.414347 42.511252 'Cycling, sport' 'user_9470' '16.74 km'

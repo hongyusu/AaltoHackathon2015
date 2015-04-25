@@ -1,0 +1,1 @@
+workout_13170.txt 14.4021497 67.2902955 'Fitness walking' 'user_9538' '6.73 km'

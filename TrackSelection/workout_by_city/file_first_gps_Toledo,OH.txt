@@ -1,0 +1,1 @@
+workout_15289.txt -83.5842215 41.6730314 'Cycling, transport' 'user_10027' '11.83 km'

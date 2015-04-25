@@ -1,0 +1,7 @@
+workout_17724.txt 104.8370467 15.2515392 'Running' 'user_8942' '2.79 km'
+workout_21807.txt 104.8572446 15.2308434 'Running' 'user_4154' '4.01 km'
+workout_22449.txt 104.8566339 15.2308298 'Running' 'user_4154' '3.21 km'
+workout_23348.txt 104.8339658 15.2445459 'Running' 'user_4154' '3.77 km'
+workout_39586.txt 104.8419149 15.261257 'Running' 'user_4154' '5.02 km'
+workout_54331.txt 104.8358613 15.2756922 'Running' 'user_4154' '2.30 km'
+workout_8923.txt 104.8418894 15.2611569 'Football, American' 'user_4154' '3.07 km'

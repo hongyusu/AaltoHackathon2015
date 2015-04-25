@@ -1,0 +1,5 @@
+workout_16028.txt -83.016636 42.291766 'Cycling, transport' 'user_347' '17.18 mi'
+workout_53895.txt -83.020797 42.268221 'Cycling, transport' 'user_347' '6.35 km'
+workout_55291.txt -82.993332 42.312783 'Walking' 'user_8132' '4.56 km'
+workout_62065.txt -83.01658 42.291755 'Cycling, transport' 'user_347' '27.67 km'
+workout_7508.txt -83.016625 42.291795 'Cycling, transport' 'user_347' '27.69 km'

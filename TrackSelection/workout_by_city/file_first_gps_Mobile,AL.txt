@@ -1,0 +1,1 @@
+workout_47828.txt -88.1815033 30.6572938 'Fitness walking' 'user_5613' '3.07 mi'

@@ -1,0 +1,2 @@
+workout_2161.txt -81.3982309 31.1356826 'Fitness walking' 'user_7546' '3.45 km'
+workout_32211.txt -81.398369 31.1357395 'Fitness walking' 'user_7546' '6.78 km'

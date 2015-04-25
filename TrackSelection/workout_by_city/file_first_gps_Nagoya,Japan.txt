@@ -1,0 +1,6 @@
+workout_14630.txt 136.9433916 35.3572059 'Walking' 'user_5334' '5.39 km'
+workout_16135.txt 136.943567 35.3570627 'Running' 'user_5334' '5.30 km'
+workout_49382.txt 136.9435121 35.3570942 'Running' 'user_5334' '8.85 km'
+workout_52653.txt 136.9440404 35.3571566 'Running' 'user_5334' '18.65 mi'
+workout_62692.txt 136.9435104 35.3571281 'Walking' 'user_5334' '5.36 km'
+workout_9749.txt 136.9434812 35.3570538 'Running' 'user_5334' '5.41 mi'

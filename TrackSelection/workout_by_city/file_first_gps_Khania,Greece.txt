@@ -1,0 +1,2 @@
+workout_10518.txt 24.030944 35.49692 'Cycling, transport' 'user_3166' '26.75 km'
+workout_31071.txt 24.030968 35.496927 'Cycling, transport' 'user_3166' '18.45 mi'

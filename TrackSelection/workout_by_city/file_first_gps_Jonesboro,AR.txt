@@ -1,0 +1,1 @@
+workout_43667.txt -90.684078 35.8155262 'Climbing stairs' 'user_8068' '0.80 mi'

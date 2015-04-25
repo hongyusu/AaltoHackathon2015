@@ -1,0 +1,6 @@
+workout_17168.txt -72.8806204162538 41.48526297882199 'Running' 'user_6905' '0.80 km'
+workout_18861.txt -72.88073063828051 41.48517781868577 'Running' 'user_6905' '0.80 km'
+workout_42552.txt -72.807483 41.509687 'Treadmill running' 'user_5053' '0.12 km'
+workout_47045.txt -72.8808450512588 41.48517522029579 'Running' 'user_6905' '0.81 km'
+workout_57993.txt -72.807724 41.509555 'Elliptical training' 'user_5053' '0.03 km'
+workout_9485.txt -72.807866 41.509472 'Treadmill running' 'user_5053' '0.09 km'

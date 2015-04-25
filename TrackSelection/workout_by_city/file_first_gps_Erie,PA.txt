@@ -1,0 +1,7 @@
+workout_15196.txt -80.101861 42.073677 'Pilates' 'user_2756' '0.00 km'
+workout_17945.txt -80.101839 42.073662 'Weight training' 'user_2756' '0.00 km'
+workout_20638.txt -80.080623 42.098066 'Weight training' 'user_2756' '0.00 km'
+workout_29623.txt -80.080779 42.098037 'Circuit Training' 'user_2756' '1.84 km'
+workout_33051.txt -80.101874 42.073604 'Running' 'user_2756' '1.76 km'
+workout_33081.txt -80.10188 42.073595 'Weight training' 'user_2756' '4.10 km'
+workout_44150.txt -80.080785 42.09845 'Circuit Training' 'user_2756' '1.14 km'

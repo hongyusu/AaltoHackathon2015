@@ -19,6 +19,6 @@ def haversine(lon1, lat1, lon2, lat2):
     return c * r *1000
 
 
-#print haversine(0.001,0.0001,0.002,0.0001)
+#print haversine(0.0001,0.0002,0.0001,0.0002)
 
 

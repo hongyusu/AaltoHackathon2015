@@ -1,0 +1,1 @@
+workout_4979.txt -69.609702 18.454638 'Treadmill running' 'user_8748' '0.78 km'

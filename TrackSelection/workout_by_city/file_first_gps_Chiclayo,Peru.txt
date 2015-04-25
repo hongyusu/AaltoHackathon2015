@@ -1,0 +1,7 @@
+workout_12458.txt -79.8482451 -6.7734498 'Cycling, sport' 'user_2797' '9.34 mi'
+workout_1554.txt -79.8482612 -6.7739848 'Cycling, sport' 'user_2797' '27.77 km'
+workout_26841.txt -79.8480686 -6.7740236 'Cycling, sport' 'user_2797' '27.05 km'
+workout_44427.txt -79.8482609 -6.7739821 'Cycling, sport' 'user_2797' '51.52 km'
+workout_44450.txt -79.8482619 -6.7739911 'Cycling, sport' 'user_2797' '54.36 km'
+workout_53343.txt -79.8482687 -6.7740507 'Cycling, sport' 'user_2797' '49.89 km'
+workout_7731.txt -79.8481047 -6.7740894 'Cycling, sport' 'user_2797' '26.87 km'

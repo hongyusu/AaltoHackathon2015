@@ -1,0 +1,4 @@
+workout_12550.txt 3.3951514 50.5044311 'Mountain biking' 'user_7415' '10.83 mi'
+workout_49328.txt 3.3951282 50.5043634 'Walking' 'user_7415' '1.47 mi'
+workout_50853.txt 3.4003125 50.6007258 'Running' 'user_8492' '4.54 km'
+workout_62210.txt 3.4009845 50.6002563 'Running' 'user_8492' '4.51 km'
