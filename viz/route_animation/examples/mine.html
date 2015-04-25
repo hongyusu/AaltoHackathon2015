@@ -16,6 +16,8 @@
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script> 	     	 
 	 var map;
+	 var pointN=20;
+	 
 	 var moveToLocation = function(location){
 	   map.panTo(location);
 	 };
@@ -36,13 +38,26 @@
 	   return new google.maps.LatLng(latSum/points.length, lngSum/points.length);
 	 };
 	 
+	 var truncatePoints = function(pts, n){
+	   var newPts = [];
+	   var i=0;
+	   var step = Math.ceil(pts.length / n);
+	   while(i<pts.length){
+		 newPts.push(pts[i]);
+		 i+=step;
+	   }
+	   
+	   return newPts;
+	 };
+	 
 	 var initialize = function () {
 	   console.log("map initializing...");
 	   var myLatLng = new google.maps.LatLng(0, 180);
 	   var mapOptions = {
 		 zoom: 3,
 		 center: myLatLng,
-		 mapTypeId: google.maps.MapTypeId.TERRAIN
+		 mapTypeId: google.maps.MapTypeId.TERRAIN,
+		 max_points: 50
 	   };
 
 	   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);		 
@@ -69,13 +84,17 @@
 	   };
 
 
-	   $.getJSON('data.json', function(data){
-		 console.log("Load data OK..");
+	   $.getJSON('walking.json', function(points){
+		 console.log("Load data OK:", points.length, " points loaded. ");
+		 
+		 points = truncatePoints(points, pointN);
+		 console.log("Truncated to ", points.length);
+		 
 		 var waypoints = [];
-		 for(var i=0; i<data.length; i++){
-		   waypoints.push(new google.maps.LatLng(data[i]['lat'], data[i]['lng']));
+		 for(var i=0; i<points.length; i++){
+		   waypoints.push(new google.maps.LatLng(points[i]['lat'], points[i]['lng']));
 		 }
-		 var distance = data[data.length-1]['values']['distance']
+		 var distance = points[points.length-1]['values']['distance']
 
 		 var response = {
 		   "routes": [{
@@ -85,15 +104,15 @@
 		 };
 		 hyperlapse.generate({route: response});
 		 var polyline = new google.maps.Polyline({
-		   path: data,
+		   path: waypoints,
 		   strokeColor: "#00ff00",
 		   strokeOpacity: 1.0,
 		   strokeWeight: 2
 		 });
 		 polyline.setMap(map);
-		 var centroid = calcCentroid(data);
+		 var centroid = calcCentroid(points);
 		 moveToLocation(centroid);
-		 zoomAppropriately(data);
+		 zoomAppropriately(points);
 	   });
 	   
 	 });
