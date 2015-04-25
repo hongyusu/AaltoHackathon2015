@@ -8,7 +8,8 @@
 
 
 
-**Coordinate**
+**Coordinate system format**
 ==
   raw data 			(x,y) 		(lng,lat)
-  city data 		(x,y) 		(lat,lng)
+  city data 		(y,x) 		(lat,lng)
+  KML				(x,y) 		(lng,lat)
