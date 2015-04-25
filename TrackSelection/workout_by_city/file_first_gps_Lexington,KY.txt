@@ -1,3 +1,0 @@
-workout_41045.txt -84.5121965 38.1397851 'Running' 'user_1512' '16.17 km'
-workout_46712.txt -84.4984633 38.0979041 'Cycling, sport' 'user_9450' '17.98 km'
-workout_59599.txt -84.5960175 38.0480648 'Treadmill running' 'user_1512' '21.18 km'

@@ -1,1 +1,1 @@
-workout_44780.txt -85.484821 32.595184 'Cycling, sport' 'user_3690' '12.31 km'
+workout_44780.txt -85.484821 32.595184 'Cycling, sport' 'user_3690' '12.31 km' 'Feb 28, 2015 8:28 PM' '13.3 km/h' '27.9 km/h' '423 kcal'

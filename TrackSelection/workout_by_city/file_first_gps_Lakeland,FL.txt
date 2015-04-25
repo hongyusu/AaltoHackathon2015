@@ -1,2 +1,0 @@
-workout_28578.txt -81.623414 28.150606 'Cycling, sport' 'user_8165' '18.41 mi'
-workout_29117.txt -81.623417 28.150519 'Cycling, sport' 'user_8165' '20.70 mi'

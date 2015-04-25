@@ -24,13 +24,6 @@
 	  <Point>
 	    <coordinates>-81.5246,41.078992</coordinates>
 </Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-81.593046,41.023514</coordinates>
-</Point>
 </Placemark>  
 </Document>
 </kml>

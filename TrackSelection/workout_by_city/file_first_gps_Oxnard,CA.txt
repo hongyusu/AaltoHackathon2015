@@ -1,2 +1,2 @@
-workout_3595.txt -119.148613 34.197343 'Running' 'user_6233' '6.47 km'
-workout_9975.txt -119.148636 34.197341 'Running' 'user_6233' '6.46 km'
+workout_3595.txt -119.148613 34.197343 'Running' 'user_6233' '6.47 km' 'Mar 5, 2015 8:58 PM' na na '470 kcal'
+workout_9975.txt -119.148636 34.197341 'Running' 'user_6233' '6.46 km' 'Mar 20, 2015 7:42 PM' na na '466 kcal'

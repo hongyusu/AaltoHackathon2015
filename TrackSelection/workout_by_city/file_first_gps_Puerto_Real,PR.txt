@@ -1,1 +1,0 @@
-workout_25355.txt -65.7194019 18.3788941 'Cycling, sport' 'user_10818' '25.62 km'

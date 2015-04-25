@@ -1,3 +1,2 @@
-workout_41353.txt -87.1846895 14.0850991 'Running' 'user_3395' '4.20 km'
-workout_56540.txt -87.1648427 14.0911077 'Running' 'user_3395' '5.40 km'
-workout_66747.txt -87.1840717 14.0846665 'Running' 'user_3395' '8.50 km'
+workout_41353.txt -87.1846895 14.0850991 'Running' 'user_3395' '4.20 km' 'Mar 10, 2015 6:05 PM' na na '350 kcal'
+workout_66747.txt -87.1840717 14.0846665 'Running' 'user_3395' '8.50 km' 'Feb 28, 2015 2:20 PM' na na '692 kcal'

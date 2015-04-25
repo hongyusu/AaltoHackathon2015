@@ -1,6 +1,2 @@
-workout_15676.txt -84.249285 34.0393708 'Walking' 'user_641' '7.24 km'
-workout_30467.txt -84.191237 34.173991 'Running' 'user_10108' '2.43 km'
-workout_32283.txt -84.3448465 34.0345724 'Elliptical training' 'user_11805' '0.01 km'
-workout_50453.txt -84.194587 34.1813661 'Cycling, transport' 'user_10612' '22.09 km'
-workout_51409.txt -84.3468425 33.9165056 'Running' 'user_9680' '2.54 mi'
-workout_58856.txt -84.2491956 34.0393496 'Walking' 'user_641' '7.80 km'
+workout_15676.txt -84.249285 34.0393708 'Walking' 'user_641' '7.24 km' 'Mar 16, 2015 10:52 PM' '5.9 km/h' '8.3 km/h' '430 kcal'
+workout_58856.txt -84.2491956 34.0393496 'Walking' 'user_641' '7.80 km' 'Mar 5, 2015 12:00 AM' '5.7 km/h' '16.6 km/h' '448 kcal'

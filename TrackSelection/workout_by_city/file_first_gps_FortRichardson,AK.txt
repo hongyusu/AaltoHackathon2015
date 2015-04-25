@@ -1,4 +1,0 @@
-workout_20307.txt -149.762212 61.215679 'Walking' 'user_6454' '1.23 mi'
-workout_42445.txt -149.762203 61.215688 'Running' 'user_6454' '1.49 km'
-workout_571.txt -149.762394 61.215659 'Running' 'user_6454' '1.70 km'
-workout_65981.txt -149.766118 61.165628 'Mountain biking' 'user_6454' '12.40 km'

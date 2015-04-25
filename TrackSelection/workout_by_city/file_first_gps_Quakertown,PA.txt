@@ -1,5 +1,0 @@
-workout_24412.txt -75.470803 40.338562 'Treadmill walking' 'user_4063' '0.00 km'
-workout_30832.txt -75.47104 40.33848 'Fitness walking' 'user_4063' '5.67 km'
-workout_3330.txt -75.471016 40.338878 'Treadmill walking' 'user_4063' '0.00 km'
-workout_36064.txt -75.470972 40.338588 'Fitness walking' 'user_4063' '5.26 km'
-workout_59337.txt -75.471236 40.338331 'Fitness walking' 'user_4063' '4.67 km'

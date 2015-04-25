@@ -10,13 +10,6 @@
         <width>4</width>
       </LineStyle>
     </Style>
-    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-5.636328,37.074904</coordinates>
-</Point>
-</Placemark>  
+  
 </Document>
 </kml>

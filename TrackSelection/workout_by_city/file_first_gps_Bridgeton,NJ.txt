@@ -1,2 +1,0 @@
-workout_22774.txt -75.10481 39.423762 'Elliptical training' 'user_9734' '0.00 km'
-workout_45160.txt -75.104903 39.42365 'Elliptical training' 'user_9734' '0.00 km'

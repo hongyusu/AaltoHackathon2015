@@ -1,2 +1,0 @@
-workout_51571.txt 7.041035 43.606498 'Circuit Training' 'user_176' '1.54 km'
-workout_64427.txt 7.040997 43.606203 'Running' 'user_176' '1.61 mi'

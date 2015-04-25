@@ -1,1 +1,1 @@
-workout_11250.txt -122.231972 38.075535 'Walking' 'user_375' '5.88 km'
+workout_11250.txt -122.231972 38.075535 'Walking' 'user_375' '5.88 km' 'Feb 25, 2015 7:34 PM' '5.7 km/h' '7.6 km/h' '741 kcal'

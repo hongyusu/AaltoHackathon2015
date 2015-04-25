@@ -1,3 +1,3 @@
-workout_41354.txt -85.865358 37.691044 'Handball' 'user_1461' '0.04 km'
-workout_57189.txt -85.865395 37.690956 'Handball' 'user_1461' '0.19 km'
-workout_6615.txt -85.865388 37.690961 'Handball' 'user_1461' '0.60 km'
+workout_41354.txt -85.865358 37.691044 'Handball' 'user_1461' '0.04 km' 'Mar 12, 2015 7:50 PM' '-' '1.2 km/h' '1750 kcal'
+workout_57189.txt -85.865395 37.690956 'Handball' 'user_1461' '0.19 km' 'Mar 26, 2015 7:44 PM' '-' '4.6 km/h' '1459 kcal'
+workout_6615.txt -85.865388 37.690961 'Handball' 'user_1461' '0.60 km' 'Feb 26, 2015 8:52 PM' '-' '20.8 km/h' '1431 kcal'

@@ -1,4 +1,1 @@
-workout_33521.txt -88.0342681 43.1775371 'Swimming' 'user_3618' '1.21 km'
-workout_38804.txt -88.1047669 43.1824619 'Swimming' 'user_3618' '1.61 km'
-workout_52357.txt -87.92876 43.126268 'Mountain biking' 'user_7530' '12.99 km'
-workout_61248.txt -87.986779 43.0211081 'Cycling, sport' 'user_7558' '13.81 mi'
+workout_61248.txt -87.986779 43.0211081 'Cycling, sport' 'user_7558' '13.81 mi' 'Mar 8, 2015 8:34 PM' '14.5 mph' '29.1 mph' '960 kcal'

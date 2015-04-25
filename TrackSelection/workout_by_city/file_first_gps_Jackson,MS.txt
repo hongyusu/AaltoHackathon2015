@@ -1,3 +1,0 @@
-workout_25335.txt -90.3154235 32.3086345 'Hiking' 'user_2713' '5.02 mi'
-workout_30417.txt -90.3152591 32.3087256 'Hiking' 'user_2713' '5.98 km'
-workout_58354.txt -90.3154059 32.3086407 'Hiking' 'user_2713' '5.81 km'

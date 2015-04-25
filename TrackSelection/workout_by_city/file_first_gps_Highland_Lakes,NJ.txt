@@ -1,7 +1,0 @@
-workout_16920.txt -74.366861 41.136887 'Circuit Training' 'user_351' '0.00 mi'
-workout_17326.txt -74.366976 41.137024 'Circuit Training' 'user_351' '0.00 km'
-workout_25389.txt -74.366934 41.136956 'Weight training' 'user_351' '0.00 km'
-workout_34865.txt -74.506448 41.190699 'Snowboarding' 'user_351' '13.49 km'
-workout_3716.txt -74.366988 41.136925 'Circuit Training' 'user_351' '0.00 km'
-workout_43561.txt -74.355799 41.136253 'Hiking' 'user_351' '1.82 km'
-workout_53842.txt -74.36716 41.136865 'Circuit Training' 'user_351' '0.00 km'

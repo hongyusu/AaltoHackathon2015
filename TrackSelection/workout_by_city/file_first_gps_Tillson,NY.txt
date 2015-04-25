@@ -1,7 +1,0 @@
-workout_11948.txt -73.9319657 41.7173722 'Rowing' 'user_5822' '0.75 mi'
-workout_23993.txt -73.9318068 41.7175226 'Circuit Training' 'user_5822' '2.04 km'
-workout_36280.txt -74.1010097 41.7196661 'Running' 'user_9544' '4.30 km'
-workout_42934.txt -73.9319034 41.7174526 'Circuit Training' 'user_5822' '1.29 km'
-workout_47016.txt -73.9318944 41.7173516 'Indoor cycling' 'user_5822' '0.09 km'
-workout_63192.txt -73.931877 41.717357 'Circuit Training' 'user_5822' '2.18 km'
-workout_9388.txt -73.9319923 41.7175418 'Elliptical training' 'user_5822' '0.63 km'

@@ -1,1 +1,1 @@
-workout_65628.txt -110.8732978 31.7134196 'Hiking' 'user_1034' '6.38 km'
+workout_65628.txt -110.8732978 31.7134196 'Hiking' 'user_1034' '6.38 km' 'Mar 7, 2015 7:07 PM' '2.4 km/h' '10.0 km/h' '1699 kcal'

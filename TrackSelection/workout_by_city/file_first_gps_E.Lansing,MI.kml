@@ -24,27 +24,6 @@
 	  <Point>
 	    <coordinates>-84.52213148586452,42.716261968016624</coordinates>
 </Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-84.59665,42.700438</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-84.509587,42.627261</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-84.56881835125387,42.839495642110705</coordinates>
-</Point>
 </Placemark>  
 </Document>
 </kml>

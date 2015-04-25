@@ -1,3 +1,0 @@
-workout_22236.txt 35.3171834 36.9353904 'Cycling, transport' 'user_5927' '7.99 km'
-workout_27074.txt 35.313763 36.9320727 'Cycling, transport' 'user_5927' '8.81 km'
-workout_36714.txt 35.3200817 37.0008668 'Cycling, transport' 'user_5927' '5.40 mi'

@@ -1,3 +1,2 @@
-workout_14745.txt -73.670241 42.778651 'Walking' 'user_3638' '2.16 km'
-workout_24576.txt -73.666745 42.786966 'Walking' 'user_3638' '1.00 km'
-workout_45736.txt -73.670264 42.778722 'Walking' 'user_3638' '3.22 km'
+workout_14745.txt -73.670241 42.778651 'Walking' 'user_3638' '2.16 km' 'Feb 28, 2015 6:43 PM' '4.7 km/h' '8.8 km/h' '195 kcal'
+workout_45736.txt -73.670264 42.778722 'Walking' 'user_3638' '3.22 km' 'Mar 20, 2015 7:07 PM' '5.1 km/h' '7.8 km/h' '273 kcal'

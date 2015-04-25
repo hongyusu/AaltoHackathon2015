@@ -1,1 +1,1 @@
-workout_35057.txt -107.9800619 36.7140658 'Walking' 'user_8035' '1.91 km'
+workout_35057.txt -107.9800619 36.7140658 'Walking' 'user_8035' '1.91 km' 'Mar 10, 2015 3:19 PM' '2.4 km/h' '8.5 km/h' '153 kcal'
