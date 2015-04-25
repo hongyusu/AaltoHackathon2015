@@ -16,7 +16,7 @@ london_gps = (+51.50000,-0.11670)
 
 
 
-delta = 0.00001*1000*50
+delta = 0.00001*1000*30
 
 for city in ['helsinki','london']:
   if city == 'helsinki':

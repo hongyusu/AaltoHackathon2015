@@ -6,7 +6,7 @@ for line in open('city_gps_refined.txt'):
   words = line.strip().split('___')
   city2location[words[0]] = (eval(words[1]),eval(words[2]))
 
-delta = 0.00001*1000*50
+delta = 0.00001*1000*30
 
 
 
