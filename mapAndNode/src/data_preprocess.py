@@ -90,7 +90,7 @@ class Route(object):
                                 nodeNum += 1
 
                         #update node link list
-                        if parent_node is not None and parent_node.id != cur_node.id:
+                        if parent_node is not None and parent_node.id != cur_node.id and cur_node not in parent_node.next:
                                 parent_node.next.append(cur_node)
                         else:
                                 self.head = cur_node
