@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Paths</name>
+    <description>Examples of paths. Note that the tessellate tag is by default
+      set to 0. If you want to create tessellated lines, they must be authored
+      (or edited) directly in KML.</description>
+    <Style id="yellowLineGreenPoly">
+      <LineStyle>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9291293,33.8821292</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9070151,33.8777811</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9075629,33.8868143</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.8899521,33.9251847</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.742887,33.862992</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9293421,33.8821752</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.7584813,33.7991331</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9070543,33.8808142</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9076166,33.886819</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9069907,33.8786764</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.8940184,33.8835795</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.999625,33.6586604</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.7584808,33.7990871</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9075728,33.8866698</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9075755,33.8867554</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9070282,33.8785639</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.7584954,33.7991678</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9292679,33.8817623</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9070003,33.878003</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9294108,33.8821372</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9070921,33.8818907</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.929363,33.882264</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.8737878,33.6940386</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.989258,33.648427</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.7624786,33.7842976</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9292456,33.8817914</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.7584268,33.7992233</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.961516,33.829053</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.8901955,33.9251801</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.8731937,33.6908807</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.9069161,33.8777084</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.991165,33.649853</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>-117.8790118,33.6900685</coordinates>
+</Point>
+</Placemark>  
+</Document>
+</kml>

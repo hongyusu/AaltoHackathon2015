@@ -1,5 +1,12 @@
 
 
+**select workouts group by city**
+==
+  file: track_selection_advanced.py 		select workouts according to cities
+  
+  results: workout_by_city/					workout by city name and country
+
+
 **Get general track information**
 ==
   track_basic_information_extraction.py		parse track information, extract track global information about tracks

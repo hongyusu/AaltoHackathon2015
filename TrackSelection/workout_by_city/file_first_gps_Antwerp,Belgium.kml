@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Paths</name>
+    <description>Examples of paths. Note that the tessellate tag is by default
+      set to 0. If you want to create tessellated lines, they must be authored
+      (or edited) directly in KML.</description>
+    <Style id="yellowLineGreenPoly">
+      <LineStyle>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383222,51.285352</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.382602,51.157516</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468258,51.208525</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495628,51.163274</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383257,51.28536</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.44495,51.215786</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.419331373646855,51.231459779664874</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383211,51.285357</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.44492,51.215664</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.3384707,51.1009077</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468924,51.208948</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495732,51.163327</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.4190699,51.2314782</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468462,51.234249</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495753,51.163345</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468483,51.208913</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468349,51.208485</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.453695,51.069958</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.445374,51.215172</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495771,51.163346</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.4197493,51.2313916</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383201,51.285342</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.4517827,51.3621</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.443838,51.215824</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.444957,51.215656</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.38324,51.285336</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495712,51.163374</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383296,51.285428</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.449177,51.179884</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468345,51.20863</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.468361,51.208892</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495706,51.163339</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.49564,51.163306</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.450114,51.176431</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495786,51.163195</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.479239,51.169884</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495797,51.163371</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.419353,51.231354</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.501736,51.309628</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.444973,51.215828</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383188,51.285368</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.444778,51.215816</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.4539267,51.360913</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495694,51.163311</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.44464,51.215878</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.451531,51.17592</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.443049,51.186721</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.420766439288855,51.21932538226247</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.450022,51.176524</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.495701,51.163267</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.382059,51.233699</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.396227,51.218716</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.47918,51.169987</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.49564,51.163278</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383331,51.285421</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.450546,51.177703</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383265,51.285405</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.419349,51.231325</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>4.383246,51.285352</coordinates>
+</Point>
+</Placemark>  
+</Document>
+</kml>

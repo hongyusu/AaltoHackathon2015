@@ -1,0 +1,3 @@
+workout_10351.txt -117.653192 34.087355 'Hiking' 'user_1811' '20.12 km'
+workout_42064.txt -117.673078 34.139178 'Walking' 'user_9442' '4.79 mi'
+workout_54805.txt -117.697175 34.083939 'Hiking' 'user_1811' '9.86 mi'

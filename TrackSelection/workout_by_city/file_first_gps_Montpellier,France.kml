@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Paths</name>
+    <description>Examples of paths. Note that the tessellate tag is by default
+      set to 0. If you want to create tessellated lines, they must be authored
+      (or edited) directly in KML.</description>
+    <Style id="yellowLineGreenPoly">
+      <LineStyle>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8925495,43.6077415</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8938995,43.6076017</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8929545,43.6079563</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8946552,43.6073586</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8929986,43.6079068</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.932701,43.527127</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8936695,43.6079391</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8929552,43.6079423</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8929368,43.6074228</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8939218,43.6074179</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.892846,43.6078271</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8928718,43.608079</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.886608,43.585029</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8928285,43.6079318</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.893224,43.6075961</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8929766,43.6080074</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8936268,43.6079411</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8929199,43.6077496</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.845715,43.619651</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8928011,43.6078919</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8930261,43.6079665</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8927908,43.6079398</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8936244,43.6075894</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8930121,43.607859</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.9719852,43.6544887</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8927994,43.6079217</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.8928935,43.60788</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.9720275,43.6545105</coordinates>
+</Point>
+</Placemark>    
+<Placemark>
+	  <name></name>
+	  <styleUrl>#west_campus_style</styleUrl>
+	  <Point>
+	    <coordinates>3.963637,43.557862</coordinates>
+</Point>
+</Placemark>  
+</Document>
+</kml>

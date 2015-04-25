@@ -1,0 +1,8 @@
+workout_53669.txt 8.8021026 53.0762975 'Running' 'user_5947' '6.01 km'
+workout_5480.txt 8.802756 53.063267 'Running' 'user_8744' '5.13 km'
+workout_55086.txt 8.801988 53.06392 'Cycling, sport' 'user_8744' '23.03 km'
+workout_57937.txt 8.802876 53.063365 'Cycling, sport' 'user_8744' '31.65 km'
+workout_5832.txt 8.9008029 53.116577 'Running' 'user_4886' '11.09 km'
+workout_61150.txt 8.8922684 53.1133797 'Running' 'user_4886' '10.07 km'
+workout_61315.txt 8.812202 53.083238 'Cycling, sport' 'user_10774' '53.30 km'
+workout_62606.txt 8.9009811 53.1163176 'Running' 'user_4886' '21.13 km'

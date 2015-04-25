@@ -1,0 +1,1 @@
+workout_64153.txt -71.246296 44.070361 'Skiing, downhill' 'user_1932' '42.79 km'

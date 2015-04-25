@@ -1,0 +1,2 @@
+workout_38563.txt -84.182116 36.02513 'Cycling, sport' 'user_9374' '5.08 mi'
+workout_40864.txt -84.182099 36.02506 'Cycling, sport' 'user_9374' '8.24 km'

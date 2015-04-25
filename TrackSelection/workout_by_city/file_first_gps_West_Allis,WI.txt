@@ -1,0 +1,2 @@
+workout_52357.txt -87.92876 43.126268 'Mountain biking' 'user_7530' '12.99 km'
+workout_61248.txt -87.986779 43.0211081 'Cycling, sport' 'user_7558' '13.81 mi'

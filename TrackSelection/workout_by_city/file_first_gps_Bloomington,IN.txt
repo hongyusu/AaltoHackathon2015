@@ -1,0 +1,3 @@
+workout_15718.txt -86.501279 39.130619 'Walking' 'user_9413' '6.80 km'
+workout_18549.txt -86.501175 39.130802 'Walking' 'user_9413' '4.49 km'
+workout_47679.txt -86.501216 39.130732 'Walking' 'user_9413' '5.87 km'

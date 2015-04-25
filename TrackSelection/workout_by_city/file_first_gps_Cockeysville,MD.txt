@@ -1,0 +1,4 @@
+workout_14430.txt -76.557186 39.393285 'Walking' 'user_8613' '4.37 mi'
+workout_16685.txt -76.54682 39.399817 'Walking' 'user_8613' '2.85 km'
+workout_35682.txt -76.542736 39.402049 'Circuit Training' 'user_8613' '0.00 mi'
+workout_3692.txt -76.555386 39.397675 'Walking' 'user_8613' '1.37 km'

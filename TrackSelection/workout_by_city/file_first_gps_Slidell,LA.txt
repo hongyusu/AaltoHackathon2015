@@ -1,0 +1,5 @@
+workout_20027.txt -89.7763158 30.309031 'Yoga' 'user_3716' '0.06 km'
+workout_27413.txt -89.7737407 30.3024642 'Yoga' 'user_3716' '1.08 km'
+workout_51667.txt -89.7763918 30.3091422 'Yoga' 'user_3716' '0.04 km'
+workout_5652.txt -89.7763801 30.3090772 'Yoga' 'user_3716' '0.03 km'
+workout_5943.txt -89.7854384 30.2722667 'Circuit Training' 'user_3716' '0.06 km'

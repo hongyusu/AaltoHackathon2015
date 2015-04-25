@@ -1,0 +1,3 @@
+workout_12243.txt -72.62723 41.91645 'Cycling, sport' 'user_11028' '8.30 km'
+workout_32705.txt -72.627046 41.916508 'Cycling, sport' 'user_11028' '8.01 km'
+workout_53206.txt -72.587447 42.015727 'Running' 'user_9422' '2.06 mi'

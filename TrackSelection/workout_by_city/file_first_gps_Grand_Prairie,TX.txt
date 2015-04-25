@@ -1,0 +1,4 @@
+workout_25987.txt -96.854487 32.705752 'Running' 'user_5204' '2.05 mi'
+workout_30737.txt -97.131355 32.838702 'Weight training' 'user_2423' '0.26 km'
+workout_53992.txt -97.05825 32.646314 'Weight training' 'user_2423' '0.00 km'
+workout_9753.txt -97.122701 32.839413 'Weight training' 'user_2423' '0.26 km'

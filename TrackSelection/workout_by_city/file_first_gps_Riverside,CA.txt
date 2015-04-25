@@ -1,0 +1,5 @@
+workout_2708.txt -117.3018974 33.9295115 'Mountain biking' 'user_1066' '5.78 km'
+workout_30394.txt -117.297599 34.055416 'Walking' 'user_5692' '5.10 km'
+workout_30677.txt -117.3020111 33.9309972 'Cycling, sport' 'user_1066' '3.58 mi'
+workout_4738.txt -117.293496 34.053574 'Running' 'user_5692' '4.57 km'
+workout_60559.txt -117.3018824 33.9295879 'Mountain biking' 'user_1066' '5.88 km'

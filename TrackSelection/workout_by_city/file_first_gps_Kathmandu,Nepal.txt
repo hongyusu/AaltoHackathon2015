@@ -1,0 +1,1 @@
+workout_40565.txt 85.312841 27.708359 'Cycling, sport' 'user_10452' '29.92 km'

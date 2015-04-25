@@ -1,0 +1,8 @@
+workout_14817.txt -76.235155 40.113269 'Skiing, cross country' 'user_2708' '3.68 km'
+workout_18350.txt -76.234982 40.113256 'Skiing, cross country' 'user_2708' '1.46 km'
+workout_21168.txt -76.234995 40.113256 'Skiing, cross country' 'user_2708' '2.17 mi'
+workout_30795.txt -76.234657 40.1129 'Elliptical training' 'user_2708' '0.00 km'
+workout_30923.txt -76.234804 40.112808 'Aerobics' 'user_2708' '0.00 km'
+workout_3381.txt -76.235028 40.113286 'Skiing, cross country' 'user_2708' '3.84 km'
+workout_36928.txt -76.234846 40.11306 'Skiing, cross country' 'user_2708' '3.03 km'
+workout_57922.txt -76.234899 40.113216 'Skiing, cross country' 'user_2708' '3.03 km'

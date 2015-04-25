@@ -1,0 +1,4 @@
+workout_22542.txt -95.111309 29.487547 'Treadmill walking' 'user_4771' '0.08 km'
+workout_24183.txt -95.118301 29.497089 'Treadmill walking' 'user_4771' '1.98 km'
+workout_4997.txt -95.118464 29.496985 'Treadmill walking' 'user_4771' '2.08 km'
+workout_54937.txt -95.111216 29.48769 'Treadmill walking' 'user_4771' '0.05 km'

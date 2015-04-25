@@ -1,0 +1,3 @@
+workout_12476.txt -74.539698 40.875869 'Indoor cycling' 'user_8992' '30.90 km'
+workout_32703.txt -74.539108 40.875224 'Indoor cycling' 'user_8992' '29.77 km'
+workout_55303.txt -74.4636615 40.8550163 'Walking' 'user_9689' '5.12 km'

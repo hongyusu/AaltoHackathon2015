@@ -1,0 +1,2 @@
+workout_49984.txt -92.1295786 34.7809602 'Walking' 'user_1844' '2.18 km'
+workout_52996.txt -92.145429 34.7298626 'Walking' 'user_1844' '1.16 km'

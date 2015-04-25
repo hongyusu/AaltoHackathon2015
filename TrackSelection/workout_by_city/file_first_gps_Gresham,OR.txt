@@ -1,0 +1,6 @@
+workout_18864.txt -122.5291 45.5950401 'Treadmill running' 'user_705' '4.99 km'
+workout_19169.txt -122.3396321 45.5683806 'Running' 'user_705' '5.26 mi'
+workout_33642.txt -122.3394961 45.5680457 'Running' 'user_705' '8.46 km'
+workout_51853.txt -122.3394938 45.5679161 'Running' 'user_705' '4.83 km'
+workout_57340.txt -122.3395488 45.5680582 'Running' 'user_705' '5.27 mi'
+workout_68117.txt -122.2984466 45.5596049 'Running' 'user_705' '2.24 mi'

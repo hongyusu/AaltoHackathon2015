@@ -1,0 +1,3 @@
+workout_14868.txt -94.1919335 36.3579277 'Running' 'user_8754' '7.27 km'
+workout_44051.txt -94.1937723 36.3570425 'Running' 'user_8754' '8.07 km'
+workout_4762.txt -94.1880273 36.3314416 'Running' 'user_8754' '8.07 km'

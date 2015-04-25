@@ -1,0 +1,1 @@
+workout_45905.txt -73.60285 40.65595 'Running' 'user_4599' '5.01 km'

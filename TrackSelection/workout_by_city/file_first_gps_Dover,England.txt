@@ -1,0 +1,1 @@
+workout_49439.txt 1.2788089 51.1420355 'Cycling, transport' 'user_7445' '5.15 km'

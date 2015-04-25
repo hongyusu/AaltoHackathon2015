@@ -1,0 +1,6 @@
+workout_12013.txt -71.7159985 42.3744244 'Skiing, cross country' 'user_6918' '6.66 km'
+workout_14095.txt -71.7160431 42.3743606 'Skiing, cross country' 'user_6918' '3.34 km'
+workout_39663.txt -71.7163084 42.3750022 'Skiing, cross country' 'user_6918' '5.41 km'
+workout_47037.txt -71.737402 42.4001851 'Skiing, cross country' 'user_6918' '8.81 km'
+workout_49045.txt -71.716057 42.3744185 'Skiing, cross country' 'user_6918' '5.68 km'
+workout_56284.txt -71.7161171 42.3744187 'Skiing, cross country' 'user_6918' '6.69 km'

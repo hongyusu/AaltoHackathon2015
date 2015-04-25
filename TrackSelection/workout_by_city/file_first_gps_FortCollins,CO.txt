@@ -1,0 +1,5 @@
+workout_26518.txt -105.0294555 40.5336074 'Running' 'user_9457' '3.53 km'
+workout_29992.txt -105.0274815 40.531093 'Running' 'user_9457' '5.15 km'
+workout_39622.txt -105.0282944 40.5307726 'Running' 'user_9457' '0.76 km'
+workout_40046.txt -105.0277156 40.5311998 'Cycling, transport' 'user_9457' '12.01 mi'
+workout_6544.txt -105.073306 40.585552 'Running' 'user_9022' '5.11 km'

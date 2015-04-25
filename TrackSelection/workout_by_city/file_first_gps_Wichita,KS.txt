@@ -1,0 +1,7 @@
+workout_22042.txt -97.2968879 37.6845938 'Running' 'user_6278' '15.70 km'
+workout_37673.txt -97.41455 37.719794 'Walking' 'user_7879' '0.71 km'
+workout_48719.txt -97.4299413 37.7170831 'Mountain biking' 'user_8185' '14.77 km'
+workout_49643.txt -97.4298869 37.7170692 'Mountain biking' 'user_8185' '24.87 km'
+workout_51418.txt -97.4189445 37.7196855 'Mountain biking' 'user_8185' '24.79 km'
+workout_52517.txt -97.4254305 37.7184764 'Mountain biking' 'user_8185' '25.12 km'
+workout_53122.txt -97.3534118 37.6920037 'Running' 'user_6278' '14.03 km'

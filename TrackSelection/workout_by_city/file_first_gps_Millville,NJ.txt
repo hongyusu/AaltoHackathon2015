@@ -1,0 +1,4 @@
+workout_22774.txt -75.10481 39.423762 'Elliptical training' 'user_9734' '0.00 km'
+workout_45160.txt -75.104903 39.42365 'Elliptical training' 'user_9734' '0.00 km'
+workout_56425.txt -75.041055 39.400282 'Running' 'user_9734' '1.57 km'
+workout_67493.txt -75.038521 39.397439 'Running' 'user_9734' '1.00 mi'

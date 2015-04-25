@@ -1,0 +1,2 @@
+workout_25662.txt -87.2594603 30.3986719 'Running' 'user_9091' '3.73 mi'
+workout_6387.txt -87.2595109 30.3985993 'Running' 'user_9091' '4.90 km'

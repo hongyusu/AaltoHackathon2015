@@ -1,0 +1,8 @@
+workout_18271.txt -112.046305 41.136173 'Running' 'user_7913' '3.85 km'
+workout_1934.txt -112.0668139 41.0886804 'Elliptical training' 'user_9901' '0.50 km'
+workout_20309.txt -112.06483 41.0747137 'Weight training' 'user_9901' '3.62 km'
+workout_28766.txt -112.0667849 41.0886249 'Weight training' 'user_9901' '0.57 mi'
+workout_40824.txt -112.046288 41.136209 'Running' 'user_7913' '4.64 km'
+workout_42507.txt -112.046347 41.136146 'Running' 'user_7913' '4.68 km'
+workout_51111.txt -112.045949 41.136237 'Running' 'user_7913' '4.43 km'
+workout_8833.txt -112.046375 41.13618 'Running' 'user_7913' '3.77 km'

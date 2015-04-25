@@ -1,0 +1,8 @@
+workout_23447.txt -95.2347502 29.6439972 'Running' 'user_6302' '4.13 km'
+workout_2642.txt -95.2346039 29.6441024 'Treadmill running' 'user_6302' '1.29 km'
+workout_44266.txt -95.2329185 29.6479186 'Walking' 'user_6302' '1.89 km'
+workout_47594.txt -95.2347497 29.6440882 'Running' 'user_6302' '5.24 km'
+workout_48387.txt -95.2328516 29.6470392 'Running' 'user_6302' '1.53 mi'
+workout_48765.txt -95.2347735 29.643999 'Running' 'user_6302' '4.27 km'
+workout_55925.txt -95.2347092 29.6440739 'Walking' 'user_6302' '2.40 km'
+workout_978.txt -95.2328921 29.6470362 'Walking' 'user_6302' '1.93 km'

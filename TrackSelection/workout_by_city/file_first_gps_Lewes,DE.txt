@@ -1,0 +1,1 @@
+workout_62421.txt -75.1581473 38.7791292 'Cycling, transport' 'user_10931' '6.40 km'
