@@ -36,13 +36,15 @@
 			var route = {
 				request:{
 					origin: new google.maps.LatLng(37.816480000000006,-122.47825,37),
-					destination: new google.maps.LatLng(37.81195,-122.47773000000001),
+					destination: new google.maps.LatLng(37.816490000000006,-122.47826,37),
+		   /*  destination: new google.maps.LatLng(37.81195,-122.47773000000001),*/
 					travelMode: google.maps.DirectionsTravelMode.DRIVING
 				}
 			};
 
 			directions_service.route(route.request, function(response, status) {
 				if (status == google.maps.DirectionsStatus.OK) {
+		            console.log(response);
 					hyperlapse.generate( {route:response} );
 				} else {
 					console.log(status);
