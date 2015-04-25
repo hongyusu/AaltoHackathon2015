@@ -16,7 +16,7 @@ london_gps = (+51.50000,-0.11670)
 
 
 
-delta = 0.00001*1000*30
+delta = 0.00001*1000*50
 
 for city in ['helsinki','london']:
   if city == 'helsinki':
@@ -30,5 +30,5 @@ for city in ['helsinki','london']:
     x = eval(words[2])
     if x>=x0-delta/2 and x<=x0+delta/2 and y>=y0-delta/2 and y<=y0+delta/2:
       fout.write(line)
-    fout.close()
-    os.system('python compute_kml_from_track_basic_information.py file_first_gps_%s.txt file_first_gps_%s.kml' % (city,city))
+  fout.close()
+  os.system('python compute_kml_from_track_basic_information.py file_first_gps_%s.txt > file_first_gps_%s.kml' % (city,city))
