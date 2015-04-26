@@ -10,41 +10,6 @@
         <width>4</width>
       </LineStyle>
     </Style>
-    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-88.189613,42.0245168</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-87.930169,42.00779</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-87.9817814,42.0851691</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-88.1919193,42.0212718</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-87.9827387,42.085475</coordinates>
-</Point>
-</Placemark>  
+  
 </Document>
 </kml>

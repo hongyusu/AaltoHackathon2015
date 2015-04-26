@@ -57,13 +57,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-95.9126612,41.2478938</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-95.9157473,41.1162351</coordinates>
 </Point>
 </Placemark>  

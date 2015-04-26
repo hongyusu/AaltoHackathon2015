@@ -1,3 +1,2 @@
-workout_10351.txt -117.653192 34.087355 'Hiking' 'user_1811' '20.12 km'
-workout_42064.txt -117.673078 34.139178 'Walking' 'user_9442' '4.79 mi'
-workout_54805.txt -117.697175 34.083939 'Hiking' 'user_1811' '9.86 mi'
+workout_10351.txt -117.653192 34.087355 'Hiking' 'user_1811' '20.12 km' 'Feb 26, 2015 7:17 PM' '10.7 km/h' '124.6 km/h' '814 kcal'
+workout_54805.txt -117.697175 34.083939 'Hiking' 'user_1811' '9.86 mi' 'Mar 12, 2015 4:45 PM' '5.1 mph' '50.4 mph' '834 kcal'

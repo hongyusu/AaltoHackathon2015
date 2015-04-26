@@ -57,13 +57,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473835,37.691905</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.447532,37.733096</coordinates>
 </Point>
 </Placemark>    
@@ -85,27 +78,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473998,37.691762</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.4939699,37.6300303</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.473841,37.691802</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.4111,37.777301</coordinates>
 </Point>
 </Placemark>    
@@ -120,35 +92,7 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473948,37.691875</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.447531,37.733047</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.475448,37.693184</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.473998,37.692135</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.490919,37.702763</coordinates>
 </Point>
 </Placemark>    
 <Placemark>
@@ -176,34 +120,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.474244,37.692542</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.471028,37.663382</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.473641,37.692435</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.489123,37.712262</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.4354458,37.7972621</coordinates>
 </Point>
 </Placemark>    
@@ -218,21 +134,7 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473844,37.691905</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.4055828,37.7860415</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.5363545,37.8603174</coordinates>
 </Point>
 </Placemark>    
 <Placemark>
@@ -246,20 +148,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473854,37.691751</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.47398,37.691649</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.413183,37.808964</coordinates>
 </Point>
 </Placemark>    
@@ -267,42 +155,7 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.474011,37.69221</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.48906,37.712141</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.473935,37.692115</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.412263,37.808862</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.474211,37.692282</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.473981,37.69222</coordinates>
 </Point>
 </Placemark>    
 <Placemark>
@@ -344,28 +197,7 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473938,37.691907</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.474119,37.692704</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.435395,37.79812</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.492101,37.70325</coordinates>
 </Point>
 </Placemark>    
 <Placemark>
@@ -386,13 +218,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-122.473965,37.691836</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-122.449734,37.731431</coordinates>
 </Point>
 </Placemark>    
@@ -401,13 +226,6 @@
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
 	    <coordinates>-122.412623,37.808959</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-122.446616,37.711956</coordinates>
 </Point>
 </Placemark>  
 </Document>

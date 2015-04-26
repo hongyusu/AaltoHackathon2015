@@ -22,69 +22,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-0.680605,44.784365</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.612165,44.884738</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.626843,44.889358</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.680688,44.78431</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.612176,44.884612</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.600789,44.890607</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.681914,44.785528</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.610877,44.88588</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.591601,44.888907</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-0.589438,44.807979</coordinates>
 </Point>
 </Placemark>    
@@ -93,34 +30,6 @@
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
 	    <coordinates>-0.604515,44.853615</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.610923,44.885779</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.612644,44.884599</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.755085,44.881854</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-0.612825,44.884821</coordinates>
 </Point>
 </Placemark>  
 </Document>

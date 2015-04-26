@@ -1,1 +1,0 @@
-workout_18528.txt -73.0287908 42.510341 'Skiing, cross country' 'user_6918' '4.50 km'

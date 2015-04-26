@@ -1,1 +1,0 @@
-workout_22300.txt -76.89034 39.150007 'Running' 'user_847' '1.95 km'

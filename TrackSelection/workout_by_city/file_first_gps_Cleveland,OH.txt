@@ -1,2 +1,2 @@
-workout_42882.txt -81.6910501 41.4715959 'Running' 'user_11505' '8.06 km'
-workout_45863.txt -81.7377381 41.4885857 'Running' 'user_8557' '2.34 km'
+workout_42882.txt -81.6910501 41.4715959 'Running' 'user_11505' '8.06 km' 'Mar 26, 2015 2:19 AM' na na '678 kcal'
+workout_45863.txt -81.7377381 41.4885857 'Running' 'user_8557' '2.34 km' 'Mar 12, 2015 4:21 PM' na na '135 kcal'

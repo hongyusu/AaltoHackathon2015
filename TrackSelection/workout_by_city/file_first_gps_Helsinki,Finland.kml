@@ -15,13 +15,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>24.7718429,60.2033282</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>24.886403,60.208837</coordinates>
 </Point>
 </Placemark>    
@@ -92,21 +85,7 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>24.822669,60.237893</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>24.886343,60.208991</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>24.968326,60.1882714</coordinates>
 </Point>
 </Placemark>    
 <Placemark>
@@ -128,13 +107,6 @@
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
 	    <coordinates>24.885963,60.211044</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>24.833609,60.230675</coordinates>
 </Point>
 </Placemark>  
 </Document>

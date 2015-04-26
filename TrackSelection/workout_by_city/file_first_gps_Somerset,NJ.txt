@@ -1,3 +1,0 @@
-workout_18497.txt -74.415519 40.613842 'Fitness walking' 'user_4302' '0.56 km'
-workout_48355.txt -74.416701 40.617966 'Fitness walking' 'user_4302' '1.44 km'
-workout_67018.txt -74.417196 40.617669 'Fitness walking' 'user_4302' '0.00 km'

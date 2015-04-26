@@ -71,13 +71,6 @@
 	  <name></name>
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
-	    <coordinates>-123.326406,44.5762908</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
 	    <coordinates>-123.2606094,44.5965402</coordinates>
 </Point>
 </Placemark>    
@@ -170,13 +163,6 @@
 	  <styleUrl>#west_campus_style</styleUrl>
 	  <Point>
 	    <coordinates>-123.2605949,44.5966134</coordinates>
-</Point>
-</Placemark>    
-<Placemark>
-	  <name></name>
-	  <styleUrl>#west_campus_style</styleUrl>
-	  <Point>
-	    <coordinates>-123.3367774,44.5652109</coordinates>
 </Point>
 </Placemark>    
 <Placemark>

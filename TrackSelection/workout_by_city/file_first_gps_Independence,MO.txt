@@ -1,7 +1,0 @@
-workout_20616.txt -94.35735633596778 39.059795178472996 'Running' 'user_6903' '3.23 km'
-workout_2590.txt -94.275835 39.004046 'Treadmill running' 'user_81' '0.00 mi'
-workout_27839.txt -94.297135 39.100996 'Cycling, transport' 'user_9454' '3.01 mi'
-workout_29126.txt -94.342628 39.043687 'Cycling, sport' 'user_81' '19.06 km'
-workout_51176.txt -94.35723152942955 39.059825940057635 'Running' 'user_6903' '2.75 mi'
-workout_52319.txt -94.35729489661753 39.059813199564815 'Running' 'user_6903' '1.85 km'
-workout_65191.txt -94.35807491652668 39.05789508484304 'Running' 'user_6903' '1.63 km'

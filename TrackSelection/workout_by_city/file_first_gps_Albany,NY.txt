@@ -1,3 +1,0 @@
-workout_14745.txt -73.670241 42.778651 'Walking' 'user_3638' '2.16 km'
-workout_24576.txt -73.666745 42.786966 'Walking' 'user_3638' '1.00 km'
-workout_45736.txt -73.670264 42.778722 'Walking' 'user_3638' '3.22 km'

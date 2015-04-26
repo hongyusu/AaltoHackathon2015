@@ -1,1 +1,1 @@
-workout_44486.txt -155.07055 19.7256667 'Walking' 'user_9941' '1.25 mi'
+workout_44486.txt -155.07055 19.7256667 'Walking' 'user_9941' '1.25 mi' 'Mar 17, 2015 11:48 PM' '2.2 mph' '4.8 mph' '151 kcal'

@@ -1,6 +1,1 @@
-workout_15676.txt -84.249285 34.0393708 'Walking' 'user_641' '7.24 km'
-workout_16873.txt -84.2573949 33.883335 'Treadmill running' 'user_5803' '1.61 km'
-workout_32283.txt -84.3448465 34.0345724 'Elliptical training' 'user_11805' '0.01 km'
-workout_51409.txt -84.3468425 33.9165056 'Running' 'user_9680' '2.54 mi'
-workout_58856.txt -84.2491956 34.0393496 'Walking' 'user_641' '7.80 km'
-workout_66147.txt -84.221764 33.897402 'Walking' 'user_11421' '2.58 km'
+workout_32283.txt -84.3448465 34.0345724 'Elliptical training' 'user_11805' '0.01 km' 'Mar 27, 2015 7:38 PM' '-' '6.3 km/h' '229 kcal'

@@ -1,3 +1,3 @@
-workout_15718.txt -86.501279 39.130619 'Walking' 'user_9413' '6.80 km'
-workout_18549.txt -86.501175 39.130802 'Walking' 'user_9413' '4.49 km'
-workout_47679.txt -86.501216 39.130732 'Walking' 'user_9413' '5.87 km'
+workout_15718.txt -86.501279 39.130619 'Walking' 'user_9413' '6.80 km' 'Mar 21, 2015 10:42 PM' '5.6 km/h' '7.3 km/h' '883 kcal'
+workout_18549.txt -86.501175 39.130802 'Walking' 'user_9413' '4.49 km' 'Mar 15, 2015 7:13 PM' '4.4 km/h' '5.5 km/h' '527 kcal'
+workout_47679.txt -86.501216 39.130732 'Walking' 'user_9413' '5.87 km' 'Mar 22, 2015 9:32 PM' '5.5 km/h' '7.7 km/h' '748 kcal'

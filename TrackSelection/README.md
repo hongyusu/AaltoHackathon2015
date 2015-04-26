@@ -1,5 +1,18 @@
 
 
+
+
+
+**Selection**
+==
+	select major cities, and get gps location of city center
+
+	for each city select workout within 10km radius of the center
+	
+	use London, New York to generate map
+
+
+
 **select workouts group by city**
 ==
   file: track_selection_advanced.py 		select workouts according to cities

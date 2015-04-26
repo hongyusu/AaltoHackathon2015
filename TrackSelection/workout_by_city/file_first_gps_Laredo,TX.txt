@@ -1,4 +1,2 @@
-workout_11402.txt -99.503892 27.451817 'Climbing' 'user_11521' '1.49 km'
-workout_35654.txt -99.506677 27.467644 'Running' 'user_11012' '5.87 km'
-workout_5666.txt -99.506629 27.466743 'Running' 'user_11012' '4.65 km'
-workout_65228.txt -99.509442 27.443573 'Walking' 'user_11521' '2.68 km'
+workout_35654.txt -99.506677 27.467644 'Running' 'user_11012' '5.87 km' 'Mar 23, 2015 2:48 PM' na na '531 kcal'
+workout_5666.txt -99.506629 27.466743 'Running' 'user_11012' '4.65 km' 'Mar 24, 2015 2:51 PM' na na '417 kcal'

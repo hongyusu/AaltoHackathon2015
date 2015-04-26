@@ -1,5 +1,0 @@
-workout_37017.txt -75.6275163 40.1524972 'Walking' 'user_6428' '3.10 km'
-workout_39278.txt -75.638291 40.1471927 'Walking' 'user_6428' '1.96 km'
-workout_52622.txt -75.6378783 40.1470504 'Walking' 'user_6428' '1.56 mi'
-workout_54238.txt -75.6381771 40.1468557 'Walking' 'user_6428' '1.01 mi'
-workout_62590.txt -75.6380707 40.1469753 'Walking' 'user_6428' '1.29 mi'

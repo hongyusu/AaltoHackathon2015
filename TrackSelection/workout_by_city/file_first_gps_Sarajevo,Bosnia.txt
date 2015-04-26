@@ -1,3 +1,0 @@
-workout_39067.txt 18.27989 43.71391 'Snowboarding' 'user_3269' '20.14 km'
-workout_66583.txt 18.28278 43.714582 'Snowboarding' 'user_3269' '36.69 km'
-workout_67778.txt 18.283372 43.714838 'Snowboarding' 'user_3269' '9.10 km'

@@ -1,1 +1,1 @@
-workout_62421.txt -75.1581473 38.7791292 'Cycling, transport' 'user_10931' '6.40 km'
+workout_62421.txt -75.1581473 38.7791292 'Cycling, transport' 'user_10931' '6.40 km' 'Mar 22, 2015 8:51 PM' '11.5 km/h' '20.0 km/h' '338 kcal'

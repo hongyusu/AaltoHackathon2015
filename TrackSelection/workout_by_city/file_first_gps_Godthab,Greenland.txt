@@ -1,1 +1,0 @@
-workout_53353.txt -51.735533 64.1837502 'Treadmill running' 'user_697' '0.41 km'

@@ -1,1 +1,1 @@
-workout_51816.txt -114.299399 48.201871 'Walking' 'user_9588' '1.70 km'
+workout_51816.txt -114.299399 48.201871 'Walking' 'user_9588' '1.70 km' 'Mar 16, 2015 7:49 PM' '5.1 km/h' '6.4 km/h' '148 kcal'

@@ -1,3 +1,2 @@
-workout_12243.txt -72.62723 41.91645 'Cycling, sport' 'user_11028' '8.30 km'
-workout_32705.txt -72.627046 41.916508 'Cycling, sport' 'user_11028' '8.01 km'
-workout_53206.txt -72.587447 42.015727 'Running' 'user_9422' '2.06 mi'
+workout_12243.txt -72.62723 41.91645 'Cycling, sport' 'user_11028' '8.30 km' 'Mar 23, 2015 1:43 PM' '20.0 km/h' '36.4 km/h' '511 kcal'
+workout_32705.txt -72.627046 41.916508 'Cycling, sport' 'user_11028' '8.01 km' 'Mar 24, 2015 1:44 PM' '22.0 km/h' '38.5 km/h' '507 kcal'

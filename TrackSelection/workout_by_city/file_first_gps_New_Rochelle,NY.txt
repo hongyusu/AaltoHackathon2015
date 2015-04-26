@@ -1,4 +1,0 @@
-workout_40801.txt -73.891851 40.917609 'Other' 'user_10941' '0.05 km'
-workout_47578.txt -73.857812 40.809307 'Walking' 'user_806' '0.70 km'
-workout_61592.txt -73.892077 40.917631 'Other' 'user_10941' '0.00 mi'
-workout_64726.txt -73.857718 40.809269 'Walking' 'user_806' '1.45 km'

@@ -1,6 +1,2 @@
-workout_15986.txt -85.7261819 42.8672568 'Running' 'user_1022' '5.48 mi'
-workout_16185.txt -85.6708725 42.9674792 'Indoor cycling' 'user_1022' '0.08 km'
-workout_19787.txt -85.67153 42.842282 'Running' 'user_8663' '1.96 mi'
-workout_25978.txt -85.698691 42.9228637 'Running' 'user_1022' '3.36 km'
-workout_51194.txt -85.7187804 42.8976513 'Running' 'user_1022' '7.47 km'
-workout_66049.txt -85.7307848 42.8769814 'Running' 'user_9645' '3.32 km'
+workout_16185.txt -85.6708725 42.9674792 'Indoor cycling' 'user_1022' '0.08 km' 'Mar 5, 2015 12:30 AM' '-' na '1060 kcal'
+workout_25978.txt -85.698691 42.9228637 'Running' 'user_1022' '3.36 km' 'Mar 15, 2015 3:13 PM' na na '436 kcal'

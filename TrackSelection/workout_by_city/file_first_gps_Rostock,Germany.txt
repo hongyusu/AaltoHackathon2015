@@ -1,2 +1,2 @@
-workout_39001.txt 12.140756 54.088314 'Walking' 'user_11265' '2.07 km'
-workout_66813.txt 12.111808 54.09011 'Walking' 'user_4040' '5.84 km'
+workout_39001.txt 12.140756 54.088314 'Walking' 'user_11265' '2.07 km' 'Mar 24, 2015 6:45 PM' '5.0 km/h' '7.0 km/h' '122 kcal'
+workout_66813.txt 12.111808 54.09011 'Walking' 'user_4040' '5.84 km' 'Mar 8, 2015 3:54 PM' '3.7 km/h' '15.1 km/h' '433 kcal'

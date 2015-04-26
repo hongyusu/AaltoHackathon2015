@@ -1,1 +1,1 @@
-workout_49439.txt 1.2788089 51.1420355 'Cycling, transport' 'user_7445' '5.15 km'
+workout_49439.txt 1.2788089 51.1420355 'Cycling, transport' 'user_7445' '5.15 km' 'Mar 8, 2015 5:51 PM' '13.8 km/h' '35.7 km/h' '220 kcal'

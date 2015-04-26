@@ -1,4 +1,2 @@
-workout_24047.txt 1.088509 49.442669 'Walking' 'user_1880' '2.68 km'
-workout_50360.txt 1.025694 49.290685 'Running' 'user_7643' '3.85 km'
-workout_53719.txt 1.104156 49.435703 'Walking' 'user_1880' '1.86 km'
-workout_8920.txt 1.0714247 49.5476155 'Running' 'user_328' '10.10 km'
+workout_24047.txt 1.088509 49.442669 'Walking' 'user_1880' '2.68 km' 'Mar 16, 2015 7:40 PM' '4.1 km/h' '5.1 km/h' '201 kcal'
+workout_53719.txt 1.104156 49.435703 'Walking' 'user_1880' '1.86 km' 'Mar 16, 2015 10:53 PM' '3.8 km/h' '11.2 km/h' '144 kcal'

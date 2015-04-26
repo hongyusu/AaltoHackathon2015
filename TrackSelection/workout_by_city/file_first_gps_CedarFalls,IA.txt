@@ -1,2 +1,2 @@
-workout_22436.txt -92.418485 42.533531 'Hiking' 'user_10267' '3.24 km'
-workout_49447.txt -92.418401 42.533461 'Hiking' 'user_10267' '4.86 km'
+workout_22436.txt -92.418485 42.533531 'Hiking' 'user_10267' '3.24 km' 'Mar 20, 2015 12:55 AM' '5.4 km/h' '8.1 km/h' '343 kcal'
+workout_49447.txt -92.418401 42.533461 'Hiking' 'user_10267' '4.86 km' 'Mar 21, 2015 12:17 AM' '4.3 km/h' '8.6 km/h' '642 kcal'

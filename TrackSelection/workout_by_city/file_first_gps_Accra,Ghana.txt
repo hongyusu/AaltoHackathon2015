@@ -1,7 +1,0 @@
-workout_10841.txt -0.09134 5.603664 'Mountain biking' 'user_3037' '51.05 mi'
-workout_12854.txt -0.091352 5.603656 'Mountain biking' 'user_3037' '65.01 km'
-workout_37545.txt -0.091419 5.603789 'Mountain biking' 'user_3037' '66.30 km'
-workout_39781.txt -0.091455 5.603564 'Mountain biking' 'user_3037' '64.35 km'
-workout_47433.txt -0.091359 5.603642 'Mountain biking' 'user_3037' '41.70 mi'
-workout_53855.txt -0.091327 5.603661 'Mountain biking' 'user_3037' '81.43 km'
-workout_61272.txt -0.091335 5.60366 'Mountain biking' 'user_3037' '88.87 km'

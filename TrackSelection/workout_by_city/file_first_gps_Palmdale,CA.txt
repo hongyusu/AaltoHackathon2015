@@ -1,1 +1,0 @@
-workout_12449.txt -118.176459 34.871082 'Mountain biking' 'user_9053' '5.92 km'

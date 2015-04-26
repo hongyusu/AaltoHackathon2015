@@ -1,1 +1,1 @@
-workout_3431.txt -89.69174 41.782538 'Treadmill running' 'user_4664' '0.00 km'
+workout_3431.txt -89.69174 41.782538 'Treadmill running' 'user_4664' '0.00 km' 'Mar 2, 2015 10:27 PM' na na '319 kcal'

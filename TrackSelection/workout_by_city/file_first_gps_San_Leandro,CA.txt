@@ -1,4 +1,0 @@
-workout_23256.txt -122.186222 37.781336 'Cycling, transport' 'user_2762' '4.79 km'
-workout_35503.txt -122.186258 37.781343 'Cycling, transport' 'user_2762' '9.93 km'
-workout_43287.txt -122.224357 37.776273 'Cycling, transport' 'user_2762' '4.86 km'
-workout_8685.txt -122.186188 37.781311 'Cycling, transport' 'user_2762' '5.69 km'

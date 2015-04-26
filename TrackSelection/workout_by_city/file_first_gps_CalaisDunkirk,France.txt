@@ -1,2 +1,0 @@
-workout_46455.txt 1.876136 50.870395 'Running' 'user_2407' '9.77 km'
-workout_6118.txt 1.876656 50.870411 'Running' 'user_2407' '0.00 km'

@@ -1,4 +1,1 @@
-workout_12483.txt -110.8395688 32.1754735 'Yoga' 'user_11049' '0.02 km'
-workout_18502.txt -110.974694 32.22302 'Walking' 'user_7418' '3.78 km'
-workout_27875.txt -110.8395582 32.1756068 'Cycling, sport' 'user_11049' '11.22 km'
-workout_31098.txt -110.822614 32.3098124 'Hiking' 'user_1034' '6.65 km'
+workout_18502.txt -110.974694 32.22302 'Walking' 'user_7418' '3.78 km' 'Mar 15, 2015 11:30 PM' '4.3 km/h' '15.4 km/h' '227 kcal'

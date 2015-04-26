@@ -1,1 +1,0 @@
-workout_6494.txt -68.261643 47.366225 'Snowshoeing' 'user_4542' '3.34 km'
