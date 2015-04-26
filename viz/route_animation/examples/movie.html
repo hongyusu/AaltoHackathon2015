@@ -32,7 +32,7 @@
 	 
 	 $(document).ready(function(){
 	   var hyperlapse = new Hyperlapse(document.getElementById('pano'), {
-		 zoom: 2,
+		 zoom: 1,
 		 elevation: 10,
 		 millis: 100,
 	   });
@@ -43,6 +43,7 @@
 
 	   hyperlapse.onLoadProgress = function(e){
 		 $("#loading").show();
+		 $("#play").hide();
 	   }
 
 	   hyperlapse.onRouteComplete = function(e) {
@@ -51,11 +52,14 @@
 
 	   hyperlapse.onLoadComplete = function(e) {
 		 $("#loading").hide();
-		 hyperlapse.play();
+		 $("#play").on("click", function(){
+		   hyperlapse.play();
+		 });
+		 $("#play").show();
 	   };
 
 
-	   $.getJSON('walking.json', function(points){
+	   $.getJSON('workout_58446.json', function(points){
 		 console.log("Load data OK:", points.length, " points loaded. ");
 		 
 		 points = truncatePoints(points, pointN);
@@ -86,6 +90,9 @@
 	  <div id="loading">
 		<h2>Loading...</h2>
 		<img src="http://fc00.deviantart.net/fs70/f/2012/169/0/c/pikachu_running_animation_by_cadetderp-d5407a9.gif"/>
+	  </div>
+	  <div id="play">
+		<button>Play</button>
 	  </div>
 	  <div id="pano"></div>	  
 	</div>
