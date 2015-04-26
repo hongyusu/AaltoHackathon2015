@@ -8,10 +8,67 @@
        margin: 0px;
        padding: 0px
      }
+	 
+	 #content{
+	   width: 80%;
+	   margin-top:100px;
+	   /*margin-left: auto;*/
+	 }
+	 
+
+	 button {
+	   /* text */
+	   text-decoration: none;
+	   font: 24px/1em 'Droid Sans', sans-serif;
+	   font-weight: bold;
+	   text-shadow: rgba(255,255,255,.5) 0 1px 0;
+	   -webkit-user-select: none;
+	   -moz-user-select: none;
+	   user-select: none;
+	   
+	   
+	   /* layout */
+	   padding: .5em .6em .4em .6em;
+	   margin: .5em;
+	   display: inline-block;
+	   position: relative;
+	   
+	   -webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+	   border-radius: 8px;
+	   
+	   /* effects */
+	   border-top: 1px solid rgba(255,255,255,0.8);
+	   border-bottom: 1px solid rgba(0,0,0,0.1);
+	   
+	   background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )), url(https://lh4.googleusercontent.com/-Qs9-Ohgo6sk/UY11O1WoMQI/AAAAAAAACME/nUID7awcMow/s50-no/noise.png);
+	   background-image: -moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%), url(https://lh4.googleusercontent.com/-Qs9-Ohgo6sk/UY11O1WoMQI/AAAAAAAACME/nUID7awcMow/s50-no/noise.png);
+	   background-image: gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )), url(https://lh4.googleusercontent.com/-Qs9-Ohgo6sk/UY11O1WoMQI/AAAAAAAACME/nUID7awcMow/s50-no/noise.png);
+
+	   -webkit-transition: background .2s ease-in-out;
+	   -moz-transition: background .2s ease-in-out;
+	   transition: background .2s ease-in-out;
+	   
+	   /* color */
+	   color: hsl(0, 0%, 40%) !important;
+	   background-color: hsl(0, 0%, 75%);
+	   
+	   -webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+	   hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+	   rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	   -moz-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+	   hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+	   rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	   box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+	   hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+	   rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	 }	 
+
     </style>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry" type="text/javascript"></script> 
 	<script src="js/three.min.js"></script>
 	<script src="js/GSVPano.js"></script>
+	<script src="js/utils.js"></script>
 	<script src="../src/Hyperlapse.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script> 	     	 
@@ -30,11 +87,20 @@
 	   return newPts;
 	 };
 	 
+
+	 var options = getHashParams();
+	 var route_path = options['route_path'];  // | 'workout_52530.json'
+
 	 $(document).ready(function(){
+	   
+	   $("#play").hide();
+	   $("#loading").show();
+	   
 	   var hyperlapse = new Hyperlapse(document.getElementById('pano'), {
-		 zoom: 1,
+		 zoom: 2,
 		 elevation: 10,
-		 millis: 100,
+		 millis: 3000,
+		 "max_points": 50
 	   });
 
 	   hyperlapse.onError = function(e) {
@@ -42,8 +108,7 @@
 	   };
 
 	   hyperlapse.onLoadProgress = function(e){
-		 $("#loading").show();
-		 $("#play").hide();
+		 
 	   }
 
 	   hyperlapse.onRouteComplete = function(e) {
@@ -54,16 +119,14 @@
 		 $("#loading").hide();
 		 $("#play").on("click", function(){
 		   hyperlapse.play();
+		   $("#play").hide();
 		 });
 		 $("#play").show();
 	   };
 
 
-	   $.getJSON('workout_58446.json', function(points){
+	   $.getJSON(route_path, function(points){
 		 console.log("Load data OK:", points.length, " points loaded. ");
-		 
-		 points = truncatePoints(points, pointN);
-		 console.log("Truncated to ", points.length);
 		 
 		 var waypoints = [];
 		 for(var i=0; i<points.length; i++){
@@ -85,16 +148,15 @@
 	</script> 
 	
   </head> 
-  <body> 
-	<div>
+  <body style="text-align:center;"> 
+	<div id="content">
 	  <div id="loading">
-		<h2>Loading...</h2>
 		<img src="http://fc00.deviantart.net/fs70/f/2012/169/0/c/pikachu_running_animation_by_cadetderp-d5407a9.gif"/>
-	  </div>
-	  <div id="play">
+	  </div>	  
+	  <div id="pano"></div>	  
+	  <div id="play" style="display:none;">
 		<button>Play</button>
 	  </div>
-	  <div id="pano"></div>	  
 	</div>
   </body> 
 </html>
