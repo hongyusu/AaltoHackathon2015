@@ -10,9 +10,9 @@ from haversine import haversine
 
 
 resultPath = '../resulttmp'
-nodeInfoPath = path.join(resultPath, 'node_infoLondon,England20.txt')#each line cotains:'id:lng lat alt'
-mapInfoPath = path.join(resultPath, 'map_infoLondon,England20.txt')#each line contains:'id1 id2:distance', the distance of unit is meter.
-partialRoutesFile = path.join(toolPath, 'workout_by_city/file_first_gps_London,England.txt')
+nodeInfoPath = path.join(resultPath, 'node_infoNew_York,NY10.txt')#each line cotains:'id:lng lat alt'
+mapInfoPath = path.join(resultPath, 'map_infoNew_York,NY10.txt')#each line contains:'id1 id2:distance', the distance of unit is meter.
+partialRoutesFile = path.join(toolPath, 'workout_by_city/file_first_gps_New_York,NY.txt')
 
 def getLogger():
         import logging
@@ -24,7 +24,7 @@ def getLogger():
 _log_file = getLogger()
 
 #global variables
-BlockSize = 0.0001*2#about 10 meters
+BlockSize = 0.0001#about 10 meters
 NodeIndex = {}#'Node.lat,Node.lng':node_object
 nodeNum = 0
 
