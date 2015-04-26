@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+	<title>Simple Example</title> 
+    <style>
+     html, body, #map-canvas {
+       height: 100%;
+       margin: 0px;
+       padding: 0px
+     }
+    </style>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry" type="text/javascript"></script> 
+	<script src="js/three.min.js"></script>
+	<script src="js/GSVPano.js"></script>
+	<script src="../src/Hyperlapse.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script> 	     	 
+	 var map;
+	 var pointN=20;
+	 
+	 var truncatePoints = function(pts, n){
+	   var newPts = [];
+	   var i=0;
+	   var step = Math.ceil(pts.length / n);
+	   while(i<pts.length){
+		 newPts.push(pts[i]);
+		 i+=step;
+	   }
+	   
+	   return newPts;
+	 };
+	 
+	 $(document).ready(function(){
+	   var hyperlapse = new Hyperlapse(document.getElementById('pano'), {
+		 zoom: 1,
+		 elevation: 10,
+		 millis: 100,
+	   });
+
+	   hyperlapse.onError = function(e) {
+		 console.log(e);
+	   };
+
+	   hyperlapse.onLoadProgress = function(e){
+		 $("#loading").show();
+		 $("#play").hide();
+	   }
+
+	   hyperlapse.onRouteComplete = function(e) {
+		 hyperlapse.load();
+	   };
+
+	   hyperlapse.onLoadComplete = function(e) {
+		 $("#loading").hide();
+		 $("#play").on("click", function(){
+		   hyperlapse.play();
+		 });
+		 $("#play").show();
+	   };
+
+
+	   $.getJSON('workout_58446.json', function(points){
+		 console.log("Load data OK:", points.length, " points loaded. ");
+		 
+		 points = truncatePoints(points, pointN);
+		 console.log("Truncated to ", points.length);
+		 
+		 var waypoints = [];
+		 for(var i=0; i<points.length; i++){
+		   waypoints.push(new google.maps.LatLng(points[i]['lat'], points[i]['lng']));
+		 }
+		 var distance = points[points.length-1]['values']['distance']
+
+		 var response = {
+		   "routes": [{
+			 "overview_path": waypoints,
+			 "legs": [{'distance': {'value': distance*1000}}]
+		   }]
+		 };
+		 hyperlapse.generate({route: response});
+	   });
+	   
+	 });
+	 
+	</script> 
+	
+  </head> 
+  <body> 
+	<div>
+	  <div id="loading">
+		<h2>Loading...</h2>
+		<img src="http://fc00.deviantart.net/fs70/f/2012/169/0/c/pikachu_running_animation_by_cadetderp-d5407a9.gif"/>
+	  </div>
+	  <div id="play">
+		<button>Play</button>
+	  </div>
+	  <div id="pano"></div>	  
+	</div>
+  </body> 
+</html>
