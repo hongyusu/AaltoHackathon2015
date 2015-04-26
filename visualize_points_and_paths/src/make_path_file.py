@@ -3,7 +3,7 @@
 import re
 
 
-for keyword in ['London,England10','London,England20','New_York,NY10','New_York,NY20']:
+for keyword in ['London,England20','New_York,NY20','Prague,Czech_Rep.20','Amsterdam,Neth.20','Bangkok,Thailand20','Fukuoka,Japan20','Sao_Paulo,Brazil20']:
 
 
 	fout = open('../res/path_%s.txt' % keyword, 'w')
