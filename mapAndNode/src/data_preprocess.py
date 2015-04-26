@@ -73,7 +73,6 @@ class Route(object):
                         lng = 0
                         lat = 0
                         try:
-                                #print info['lng'], info['lat']
                                 lng = center(info['lng'])
                                 lat = center(info['lat'])
                                 alt = info['values']['alt']  
@@ -100,11 +99,13 @@ class Route(object):
 
 
 def parseFile(filePath):
+        '''
+                read the route infomation from a file, create and update the node info meanwhile generate the map
+        '''
         with open(filePath) as f:
                 routeInfo = f.readlines()[-1][10:-2]
                 if routeInfo:
                         route = Route(routeInfo)
-                        route.head.nodeInfo()
 
 def writeNodeInfo():
         with open(nodeInfoPath, 'w') as nf:
@@ -129,6 +130,9 @@ def generateMap(dataPath):
 
 sports = {}
 def sportsCategory(dataPath):
+        '''
+                stat how many tracks for each sport and its corresponding file list
+        '''
         for fileName in listdir(dataPath):
                 for line in open(path.join(dataPath, fileName)):
                         if line.startswith("'sport'"):
@@ -146,7 +150,8 @@ def sportsCategory(dataPath):
                 
 if __name__ == "__main__":
         dataPath = '../../../Data/workouts_anonymized/'
-        #parseFile(path.join(dataPath, 'workout_13014.txt'))
+        for f in os.listdir(dataPath):
+                parseFile(path.join(dataPath, f))
         generateMap(dataPath)
         writeNodeInfo()
         writeMap()
