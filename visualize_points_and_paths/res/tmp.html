@@ -23,8 +23,10 @@
 
         // Create a <script> tag and set the USGS URL as the source.
         var script = document.createElement('script');
-        script.src = 'path_London,England20.txt';
-        document.getElementsByTagName('head')[0].appendChild(script);
+        //script.src = 'path_London,England20.txt';
+		//script.src = 'path_New_York,NY20.txt';
+        script.src = 'point_Fukuoka,Japan20.txt';
+		document.getElementsByTagName('head')[0].appendChild(script);
       }
 
       function eqfeed_callback(results) {
