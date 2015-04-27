@@ -4,9 +4,9 @@
 ==
 
   - General Information
-    - Date:			2015/4/25-2015/4/26
-    - Event Web:	http://datasciencehackathon.cs.hut.fi
-    - Team: 		CH3
-    - Member: 		Chunxiang Li, Han Xiao, Huibin Shen, Hongyu Su
-    - Demo:			http://ch3.strikingly.com
-    - Awards: 		Best hacks in fitness data (wearables)
+    - Date:			| 2015/4/25-2015/4/26
+    - Event Web:	| http://datasciencehackathon.cs.hut.fi
+    - Team: 		| CH3
+    - Member: 		| Chunxiang Li, Han Xiao, Huibin Shen, Hongyu Su
+    - Demo:			| http://ch3.strikingly.com
+    - Awards: 		| Best hacks in fitness data (wearables)
