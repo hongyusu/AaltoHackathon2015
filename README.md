@@ -1,6 +1,6 @@
 
 
-**Aalto Data Science Hackathon 2015**
+#**Aalto Data Science Hackathon 2015**
 ==
 
   - General Information
