@@ -12,5 +12,4 @@
     - Team: 		CH3
 
     - Member: 	Chunxiang Li, Han Xiao, Huibin Shen, Hongyu Su
-
     - Demo:		http://ch3.strikingly.com
