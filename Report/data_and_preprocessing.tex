@@ -20,7 +20,7 @@ As a result, the edge set is defined as a collection of undirected edges $E_i = 
 \subsection{Global track graph}
 
 The goal is to analyze all available track information and recommend an ideal track for individual end user.
-We realize that we cannot maintain all individual track information $T_i$ and $V_i$ due to the following reasons
+We realize that it is feasible to maintain all individual track information $T_i$ and $V_i$ due to the following reasons
 \begin{itemize}
 	\item It is computationally expensive to analyze $68,479$ tracks each time when we perform the recommendation or searching algorithm. In particular, the data files for all tracks take approximately $2$ Gigabyte.
 	\item It is difficult to measure global performances along the tracks (e.g., average/min/max speed on a location, number people running over a location) by analyzing track information separately. 
