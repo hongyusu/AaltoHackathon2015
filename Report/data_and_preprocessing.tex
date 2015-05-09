@@ -12,10 +12,10 @@ Each track $T_i\in\Tcal$ is represented as a set of geographical points on the m
 where $x_{i,j}$ is the longitude, $y_{i,j}$ is the latitude, $t_{i,j}$ is the timestamp when $(x_{i,j},y_{i,j})$ is recorded by the tracking devices, $m_i$ is the total number of pointed recored for track $T_i$.
 In addition, we have $t_{i,j}<t_{i,k}$ when $j<k$.
 
-Each track $T_i$ is then represented as a directed graph $G_i = (V_i,E_i)$ defined on a $2$D surface.
+Each track $T_i$ is then represented as an undirected graph $G_i = (V_i,E_i)$ defined on a $2$D surface.
 The vertex set $V_i=\{(x_{i,j},y_{i,j})\}_{j=1}^{m_i}$ includes all \gps\ locations of track $T_i$.
-There exist an directed edge $e_{i,k}$ from vertex $v_{i,k}$ to $v_{i,k+1}$ $\forall k\le m_i-1$.
-As a result, the edge set is defined as a collection of directed edges $E_i = \{e_{i,k}\}_{k=1}^{m_i-1}$.
+There exist an undirected edge $e_{i,k}$ between vertex $v_{i,k}$ and $v_{i,k+1}$ $\forall k\le m_i-1$.
+As a result, the edge set is defined as a collection of undirected edges $E_i = \{e_{i,k}\}_{k=1}^{m_i-1}$.
 
 \subsection{}
 
