@@ -29,7 +29,7 @@ We realize that it is feasible to maintain all individual track information $T_i
 
 We summerize and represent all track information via a global track graph $\gtt=(\vtt,\ett)$.
 \begin{itemize}
-	\item The world map is partitioned into small blocks of $10m\times10m$. Each block $\vttt$ is represented by the \gps\ location $(x,y)$ of its centre, and is a potential vertex in the global track graph $\vttt\in\vtt$. 
+	\item The world map is partitioned into small blocks of $10m\times10m$. Each block is represented by the \gps\ location $(x,y)$ of its centre, and is a potential vertex in the global track graph $\vttt=(x,y)\in\vtt$. 
 	\item We map the set of vertices $v_{i,j}\in V_i$ in the graph $G_i$ of track $T_i$ to $\vtt$ by assigning $v_{i,j}$ to the nearest vertex $\vttt\in\vtt$.
 \end{itemize}
 
