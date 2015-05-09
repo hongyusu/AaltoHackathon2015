@@ -57,7 +57,20 @@ Currently, we consider the following annotations on the vertices $\vtt$ of the g
 
 Three cities are selected for demo (London, New York, and Amsterdam) by defining the city area as a block of $20km\times20km$ and using the \gps\ location data of the city centre as the block centre.
 All tracks within the predefined city block are included in the analysis.
-We following the procedure described in Section~\ref{build_global_graph}
+We following the procedure described in Section~\ref{build_global_graph} to build global track graphs.
+The statistics of the graphs are shown in Table~\ref{graph_statistics}
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}\hline
+			City & Vertices & Edges  \\ hline 
+			London & 45942 & 46182\\ \hline
+			New York & 4856 & 6543\\ \hline
+			Amsterdam & 12357 & 15862 \\ \hline
+		\end{tabular}
+		\caption{Statistics of the global track graphs.}
+		\label{graph_statistics}
+	\end{center}
+\end{table}
 
 
 
