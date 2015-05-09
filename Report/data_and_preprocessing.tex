@@ -27,9 +27,9 @@ We realize that it is feasible to maintain all individual track information $T_i
 	\item Individual track information is not an accurate representation of the track due to the nature of the \gps\ devices and the tracking algorithms. In other word, several tracks might be performed on the same street but have different trajectories in terms of \gps\ location data. 
 \end{itemize} 
 
-We summerize and represent all track information via a global track graph.
+We summerize and represent all track information via a global track graph $G=(V,E)$.
 \begin{itemize}
-	\item The world map is partitioned into small blocks of $20m\times20m$. Each block is represented by the \gps\ location of its centre.
+	\item The world map is partitioned into small blocks of $10m\times10m$. Each block is represented by the \gps\ location of its centre, and is a potential vertex in the global track graph $G$.
 \end{itemize}
 
 
