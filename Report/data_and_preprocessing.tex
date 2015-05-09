@@ -3,8 +3,8 @@
 
 \subsection{Preliminaries}
 
-\edmd\ dataset contains the information of a collection of $68,479$ sport tracks (e.g., walking, running, cycling).
-We use $\Tcal=\{T_i\}_{i=1}^n$ to denote the collection of tracks where we have $n=68,479$.
+\edmd\ dataset contains the information of a collection of $68479$ sport tracks (e.g., walking, running, cycling).
+We use $\Tcal=\{T_i\}_{i=1}^n$ to denote the collection of tracks where we have $n=68479$.
 Each track $T_i\in\Tcal$ is represented as a set of geographical points on the map (\gps\ locations) ordered by timestamps defined as
 \begin{align*}
 	T_i = \{(x_{i,1},y_{i,1},t_{i,1}),\cdots,(x_{i,m_i},y_{i,m_i},t_{i,m_i})\},
@@ -22,7 +22,7 @@ As a result, the edge set is defined as a collection of undirected edges $E_i = 
 The goal is to analyze all available track information and recommend an ideal track for individual end user.
 We realize that it is feasible to maintain all individual track information $T_i$ and $V_i$ due to the following reasons
 \begin{itemize}
-	\item It is computationally expensive to analyze $68,479$ tracks each time when we perform the recommendation or searching algorithm. In particular, the data files for all tracks take approximately $2$ Gigabyte.
+	\item It is computationally expensive to analyze $68479$ tracks each time when we perform the recommendation or searching algorithm. In particular, the data files for all tracks take approximately $2$ Gigabyte.
 	\item It is difficult to measure global performances along the tracks (e.g., average/min/max speed on a location, number people running over a location) by analyzing track information separately. 
 	\item Individual track information is not an accurate representation of the track due to the nature of the \gps\ devices and the tracking algorithms. In other word, several tracks might be performed on the same street but have different trajectories in terms of \gps\ location data. 
 \end{itemize} 
@@ -49,8 +49,20 @@ We notice that the vertices in the global track graph are essentially \gps\ loca
 Currently, we consider the following annotations on the vertices $\vtt$ of the global track graph $\gtt$
 \begin{itemize}
 	\item We compute various summary statistics from all track information, which include e.g., maximum speed on the current location, minimum speed of the current location, average speed of the current location, popularity of the current location in terms of the number of tracks going through it.
-	\item For each location, we extract the information from social network (\twitter) and annotate the vertex with bag-of-words features. 
+	\item For each location, we extract the information from social network (\twitter) and annotate the vertex with bag-of-words features.
 \end{itemize}
+
+\subsubsection{\twitter information}
+
+Just like a community is characterized by its residents living in that area, a route is definitely can be defined by the persons running, living or walking along it.
+Along the development of digitalization of life, people would like to share their feelings or experiences through media social tools, such as facebook and twitter.
+According to the locations of some points in a route, we can get the information of twitters and the corresponding tweets sent from nearby.
+Therefore, when users would like to browser routes in a certain region or search a routes under some constrains, these social information can be displayed along these routes.
+In one hand, people can learn more about the routes instead of only from its geographic information but also maybe some feedback about that region.
+On other hand, furthermore, people would find some potential exercise company or even turn this kind of virtual friend into friend in reality.
+It may enrich their exercise events meanwhile broaden their social networking.
+
+In the future, it seems can even add some tweets tag on the route allowing the user to follow the twitter user that he/she interets. Another possible way it to emble some other social elements into that map and even make it a potential business benefits for those company along the routes in city, especially for these new stores, they can easiy to advertise.
 
 
 \subsection{Technical details}
@@ -58,7 +70,8 @@ Currently, we consider the following annotations on the vertices $\vtt$ of the g
 Three cities are selected for demo (London, New York, and Amsterdam) by defining the city area as a block of $20km\times20km$ and using the \gps\ location data of the city centre as the block centre.
 All tracks within the predefined city block are included in the analysis.
 We following the procedure described in Section~\ref{build_global_graph} to build global track graphs.
-The statistics of the graphs are shown in Table~\ref{graph_statistics}
+The statistics of the graphs are shown in Table~\ref{graph_statistics}.
+
 \begin{table}
 	\begin{center}
 		\begin{tabular}{|c||c|c|}\hline
