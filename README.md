@@ -8,4 +8,4 @@
   - Team: 			CH3
   - Member: 		Chunxiang Li(@czli), Han Xiao(@xiaohan2012), Huibin Shen(@icdishb), Hongyu Su(@hongyusu)
   - Demo:			http://ch3.strikingly.com
-  - Awards: 		**Best hacks in fitness data (wearables)** :bowtie:
+  - Awards: 		**Best hack in fitness data (wearables)** :bowtie:
