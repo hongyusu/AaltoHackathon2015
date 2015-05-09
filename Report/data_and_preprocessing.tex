@@ -17,7 +17,7 @@ The vertex set $V_i=\{(x_{i,j},y_{i,j})\}_{j=1}^{m_i}$ includes all \gps\ locati
 There exist an undirected edge $e_{i,k}$ between vertex $v_{i,k}$ and $v_{i,k+1}$ $\forall k\le m_i-1$.
 As a result, the edge set is defined as a collection of undirected edges $E_i = \{e_{i,k}\}_{k=1}^{m_i-1}$.
 
-\subsection{Global track graph}
+\subsection{Global track graph}\label{build_global_graph}
 
 The goal is to analyze all available track information and recommend an ideal track for individual end user.
 We realize that it is feasible to maintain all individual track information $T_i$ and $V_i$ due to the following reasons
@@ -55,8 +55,10 @@ Currently, we consider the following annotations on the vertices $\vtt$ of the g
 
 \subsection{Technical details}
 
-We select three cities for demo (London, New York, and Amsterdam) by using the \gps\ location data of the city centre and defined the city area as a block of $20km\times20km$.
-We analyze all tracks within the predefined city block.
+Three cities are selected for demo (London, New York, and Amsterdam) by defining the city area as a block of $20km\times20km$ and using the \gps\ location data of the city centre as the block centre.
+All tracks within the predefined city block are included in the analysis.
+We following the procedure described in Section~\ref{build_global_graph}
+
 
 
 
