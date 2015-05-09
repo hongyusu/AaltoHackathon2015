@@ -20,7 +20,10 @@ As a result, the edge set is defined as a collection of undirected edges $E_i = 
 \subsection{Global graph representation}
 
 The goal is to analyze all available track information and recommend an ideal track for individual end user.
-It is computationally expensive to analyze $68,479$ tracks each time when we perform the recommendation or searching algorithm.
+We cannot maintain all individual track information $T_i, V_i$ separately due to the followings
+\begin{itemize}
+	\item It is computationally expensive to analyze $68,479$ tracks each time when we perform the recommendation or searching algorithm.
+\end{itemize} 
 
 
 \subsection{Annotation on global graph}
