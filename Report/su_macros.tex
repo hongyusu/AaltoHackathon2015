@@ -1,7 +1,45 @@
+\usepackage[utf8]{inputenc}
+% Lipsum package generates bullshit
+\usepackage{lipsum}
+% Set the document languages
+\usepackage[finnish,swedish,english]{babel}
 
+% nomenclature
+\usepackage[intoc]{nomencl}
 
+% math
+\usepackage{amsmath}
 
+% bibliograph
+\usepackage{natbib}
+
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% math font
+\usepackage{amsfonts}
+
+% theory
+\usepackage{amsthm}
+
+% double bracket
+\usepackage{stmaryrd}
+
+% special math symbol
+\usepackage{amssymb}
+
+% use enumerate environment
+\usepackage{enumitem}
+
+% use \url \hyperref, make reference clickable
+\usepackage{hyperref}
+
+%-------------------
+%
 % set
+%
+%-------------------
 \newcommand{\Acal}{\mathcal{A}}
 \newcommand{\Bcal}{\mathcal{B}}
 \newcommand{\Ccal}{\mathcal{C}}
@@ -29,7 +67,14 @@
 \newcommand{\Ycal}{\mathcal{Y}}
 \newcommand{\Zcal}{\mathcal{Z}}
 
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+%-------------------
+%
 % vector
+%
+%-------------------
 \newcommand{\va}{\mathbf {a}}
 \newcommand{\vb}{\mathbf {b}}
 \newcommand{\vc}{\mathbf {c}}
@@ -56,8 +101,6 @@
 \newcommand{\vx}{\mathbf {x}}
 \newcommand{\vy}{\mathbf {y}}
 \newcommand{\vz}{\mathbf {z}}
-
-% other vector
 \newcommand{\vmu}{\mathbf {\mu}}
 \newcommand{\valpha}{\mathbf {\alpha}}
 \newcommand{\vlambda}{\mathbf {\lambda}}
@@ -73,10 +116,16 @@
 \newcommand{\vell}{\mathbf {\ell}}
 \newcommand{\vxi}{\mathbf{\xi}}
 \newcommand{\vphi}{\mathbf{\phi}}
+\newcommand{\vPhi}{\mathbf{\Phi}}
 
+%-------------------
+%
 % math operation
+%
+%-------------------
 \newcommand{\argmax}{\textbf{argmax}}
 \newcommand{\argmin}{\textbf{argmin}}
+\newcommand{\sign}{\textbf{sign}}
 \newcommand{\maximize}{\textbf{max}}
 \newcommand{\minimize}{\textbf{min}}
 \newcommand{\argkmax}{\textbf{argkmax}}
@@ -85,24 +134,137 @@
 \newcommand{\kminimize}{\textbf{kmin}}
 \newcommand{\st}{\textbf{s.t.}}
 \newcommand{\set}[1]{\{ #1 \}}
-\newcommand{\ind}[1]{[ #1 ]}
+%\newcommand{\ind}[1]{{\llbracket #1 \rrbracket}}
+\newcommand{\ind}[1]{\mathbf{1}_{\{#1\}}}
 \newcommand{\norm}[1]{\left|\left| #1 \right|\right|}
 \newcommand{\ip}[2]{\langle #1, #2 \rangle}
 \newcommand{\var}{\textbf{Var}}
 \newcommand{\E}{\textbf{E}}
+\newcommand{\exponential}[1]{e^{ #1 }}
 
-% writing
+
+\newcommand{\Gva}{G_{\va}}
+%-------------------
+%
+% writings
+%
+%-------------------
 \newcommand{\eqdef}{\overset{{\rm \mbox{\tiny def}}}{=}}
 \newcommand{\sbf}[1]{\boldsymbol{#1}}
 \newcommand{\mbf}[1]{\mathbf{#1}} 
 \newcommand{\etal}{{\em et al.}}
+
+\newcommand{\svmstruct}{{\sc ssvm}}
+\newcommand{\mmmn}{{\sc m$^3$n}}
 \newcommand{\svm}{{\sc svm}}
 \newcommand{\mmcrf}{{\sc mmcrf}}
+\newcommand{\smo}{{\sc smo}}
+\newcommand{\crf}{{\sc crf}}
+\newcommand{\nphard}{$\Ncal\Pcal$-hard}
+\newcommand{\nphardness}{$\Ncal\Pcal$-hardness}
+\newcommand{\iis}{{\sc iis}}
+\newcommand{\memm}{{\sc memm}}
+\newcommand{\lr}{{\sc lr}}
+\newcommand{\svmlight}{{\sc svmlight}}
+\newcommand{\libsvm}{{\sc libsvm}}
+\newcommand{\svmcascade}{{\sc svmcascade}}
+\newcommand{\adaboost}{{\sc adaboost}}
+\newcommand{\adaboostmh}{{\sc adaboost.mh}}
+\newcommand{\bagging}{{\sc bagging}}
+\newcommand{\vrtree}{{\sc vr-tree}}
+\newcommand{\deepboosting}{{\sc deepboosting}}
+\newcommand{\loo}{{\sc loo}}
+\newcommand{\mtl}{{\sc mtl}}
+\newcommand{\sdp}{{\sc sdp}}
+\newcommand{\iqp}{{\sc iqp}}
+\newcommand{\qp}{{\sc qp}}
+\newcommand{\daggraph}{{\sc dag}}
+\newcommand{\lp}{{\sc lp}}
+
+\newcommand{\hatf}{{\hat{f}}}
+\newcommand{\p}{\sc p}
+\newcommand{\n}{\sc n}
+\newcommand{\pp}{\sc pp}
+\newcommand{\pn}{\sc pn}
+\newcommand{\nn}{\sc nn}
+\newcommand{\maxcut}{{\sc max-cut}}
+\newcommand{\greedy}{{\sc greedy}}
+\newcommand{\kernelcascade}{{\sc kernel cascade}}
+\newcommand{\netrate}{{\sc netrate}}
+\newcommand{\netinf}{{\sc netinf}}
+\newcommand{\spin}{{\sc spin}}
+\newcommand{\vI}{\mathbf{I}}
+\newcommand{\tp}{^{\intercal}}
+\newcommand{\mve}{{\sc mve}}
+\newcommand{\amm}{{\sc amm}}
+\newcommand{\mam}{{\sc mam}}
+\newcommand{\rta}{{\sc rta}}
+\newcommand{\lasso}{{\sc lasso}}
+\newcommand{\mle}{{\sc mle}}
+\newcommand{\map}{{\sc map}}
+\newcommand{\rbf}{{\sc rbf}}
+\newcommand{\mlknn}{{\sc ml-knn}}
+\newcommand{\knn}{{\sc knn}}
+\newcommand{\iblr}{{\sc iblr}}
+\newcommand{\cc}{{\sc cc}}
+\newcommand{\pcc}{{\sc pcc}}
+\newcommand{\ecc}{{\sc ecc}}
+\newcommand{\br}{{\sc br}}
+\newcommand{\corrlog}{{\sc corrlog}}
+\newcommand{\ilgs}{{\sc ilgs}}
+\newcommand{\ilrs}{{\sc ilrs}}
+\newcommand{\cpp}{{\sc c}}
+\newcommand{\matlab}{{\sc matlab}}
+\newcommand{\openmp}{{\sc openmp}}
+\newcommand{\python}{{\sc python}}
+\newcommand{\cvx}{{\sc cvx}}
+\newcommand{\lda}{{\sc lda}}
+\newcommand{\kkt}{{\sc k.k.t}}
+\newcommand{\lbp}{{\sc lbp}}
+\newcommand{\anova}{{\sc anova}}
+\newcommand{\rkhs}{{\sc rkhs}}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
 
 
 
-% mis
-% Packages hyperref and algorithmic misbehave sometimes.  We can fix this with the following command.
-\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\newcommand{\Upsilonb}{\pmb \Upsilon}
+\newcommand{\phib}{\pmb \phi}
+\newcommand{\psib}{\pmb \psi}
+\newcommand{\varphib}{\pmb \varphi}
+\newcommand{\phibh}{\hat\phib}
+\newcommand{\psibh}{\hat \psib}
+\newcommand{\vYcal}{\pmb \Ycal}
+\newcommand{\vXcal}{\pmb \Xcal}
+\newcommand{\vFcal}{\pmb \Fcal}
+%-------------------
+%
+% others
+%
+%-------------------
+\renewcommand{\nomname}{List of Symbols}
 
-\makeatother
+
+
+
+\newtheorem{definition}{Definition}
+\newtheorem{theory}{Theory}
+\newtheorem{lemma}{Lemma}
+
+
+
+%-------------
+%
+% project specific macros
+%
+%-------------
+\newcommand{\edmd}{{\sc endomondo}}
+\newcommand{\gps}{{\sc gps}}
+
+
+
+
+
+
+
