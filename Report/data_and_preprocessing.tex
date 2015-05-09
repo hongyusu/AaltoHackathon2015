@@ -43,10 +43,15 @@ We summerize and represent all track information via a global track graph $\gtt=
 As a result, we have a global track graph $\gtt=(\ett,\vtt)$ which summerizes all track information and underlies all possible tracks that can be run by users.
 The global track graph is a high level abstraction of the data and serves as the input to the recommendation/searching algorithms described in the next section. 
 
-
-
-
 \subsection{Annotations on the global track graph}
 
+We notice that the vertices in the global track graph are essentially \gps\ locations which not only can be annotated with the summary statistics computed from all track information but also can be annotated with enriched contextual information. 
+Currently, we consider the following annotations on the vertices $\vtt$ of the global track graph $\gtt$
+\begin{itemize}
+	\item We compute various summary statistics from all track information, which include e.g., maximum speed on the current location, minimum speed of the current location, average speed of the current location, popularity of the current location in terms of the number of tracks going through it.
+	\item For each location, we extract the information from social network (\twitter) and annotate the vertex with bag-of-words features. 
+\end{itemize}
 
+
+\subsection{Technical details}
 
