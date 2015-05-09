@@ -1,0 +1,105 @@
+
+\section{Algorithm}
+
+Most application records the walking, running and cycling routes after the 
+exercise have been done. However, when user move to a new place or travel to
+a new country, find a good running route will become a problem. In this
+section, we adpat algorithms in Graph for route recommendation.
+
+We consider a simple case where a user specify the length of the route and we
+recommend a route that starts and ends at the same position with the length
+as required. Formally, given a undirected graph $G = (V,E)$ and a starting 
+vertex $s$, the goal is to find a walk in the graph $G$ of the length $d$ ends at $s$.
+We have length information $w_e$ for every edge $e \in E$. In practice, it is 
+possible in $G$ there is no walk of length $d$ starting from $s$ and ending at
+$s$, thus we allow the maximum length difference $\Delta$. We may have a lot of tottering
+in the end, so we sort in the reverse order the walks by the number of different nodes the
+walk contains and take the first few ones. The simple BFS based algorithm is listed in
+Algorithm \ref{alg:bfs1}.
+
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\STATE Input: $G=(V,E), s, d$
+\STATE Output: $P$, the set of walks of length $d$ start and end at $s$
+\STATE Init $P=\{\}, Q=\{\}$
+\STATE $Q.add(s)$
+\WHILE{$Q$ is not empty}
+\STATE$u = Q.pop()$
+\FOR{$v \in neighbors(u)$}
+  \IF{$v == s$ and $depth(v)-d \leq \Delta$}
+   \STATE $P.add(v)$
+  \ELSIF{$depth(v) < d+\Delta$}
+   \STATE $Q.add(v)$
+  \ENDIF 
+\ENDFOR
+\ENDWHILE
+\STATE Sort the walks in $P$ by the number of different nodes in reverse order.
+\end{algorithmic}
+\caption{Na\"ive BFS based search.}
+\label{alg:bfs1}
+\end{algorithm}
+
+We can speed up the search by joining two walks into one. The idea is simple, when we have all
+the nodes in the next layer of the search tree, we test for all pairs of nodes if they are the same.
+For the nodes on different paths of the search tree, if they are the same, we can concatenate the two
+paths into one, the detail is listed in Algorithm \ref{alg:bfs2}.
+
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\STATE Input: $G=(V,E), s, d$
+\STATE Output: $P$, the set of walks of length $d$ start and end at $s$
+\STATE Init $P=\{\}, Q=\{\}$
+\STATE $Q.add(s)$
+\WHILE{$Q$ is not empty}
+\STATE $C=\{\}$
+\FOR{$u \in Q$}
+\FOR{$v \in neighbors(u)$}
+\IF{$depth(v) \leq d+\Delta$}
+\STATE $C.add(v)$
+\STATE $Q.add(v)$
+\ENDIF
+\ENDFOR
+\ENDFOR
+\FOR{$u\in C$}
+\FOR{$v\in C$}
+\IF{$u==v$ and $depth(u)+depth(v)-d\leq\Delta$}
+\STATE $P.add($Walk by joining $u$ and $v)$
+\ENDIF
+\ENDFOR
+\ENDFOR
+\ENDWHILE
+\STATE Sort the walks in $P$ by the number of different nodes in reverse order.
+\end{algorithmic}
+\caption{Na\"ive BFS based search.}
+\label{alg:bfs2}
+\end{algorithm}
+
+One of the problem for the above algorithms are the computational efficiency. The problem of finding a path
+of fixed length in a graph is NP-hard. Since each of the blocks in our data is about 10m to 20m, to find a 
+route of 3km needs 150 to 300 blocks and the search tree is huge. In practice, we could only find route
+round 1km in reasonable time. As a result, to find longer route, we searched the historical routes around 
+the area for every user and suggest the most similar one in terms of length.
+
+Based on historical routes datasets, we could get the information about the number of visits of
+every places and take that as popularity. This open the possibility to recommend routes with most
+popularity. We add this function as a post-processing of the routes in the set $P$ which is just sorting
+based on the sum of number of visits of every places in a route. We show such an route at
+\url{http://ch3.strikingly.com/blog/recommend-route-with-popularity}.
+
+We also retrieved twitter data related to places in the routes. By doing so, we open the possibility to add
+social information and even sentimental information in the route recommendation. We show such an route
+at \url{http://ch3.strikingly.com/blog/routes-with-social-info}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
