@@ -44,28 +44,82 @@
 
 Wearable is the new trend, the location data of the users has already flooded to us. Among the 
 mobile applications, sports management APPs heavily depend on recoding the users positions
-along their workouts. In this project, we try to answer following questions:
+along their workouts. In this project, we try to answer the following questions:
 
 \begin{itemize}
 \item Is it possible to generate good users fingerprints (features) based on the telematics data? 
 With the fingerprints, we could do many things such as users clustering, users recommendations.
-It is important because it is the corner stones of further applications.
-\item Can we design or find a good model to differ users based on the routes GPS data? 
-If this is true, a comparison study of different group of users could reveal insights on the 
-human sports patterns.
+It is important because it is the corner stones of further applications. The effectiveness of the 
+fingerprint could be tested in a setting that using the fingerprint to differ different users. 
+Besides directly compare users based on fingerprints, some basic machine learning models
+utilize the fingerprints could be used to classify routes to users as the Kaggle challenge
+ \footnote{\url{https://www.kaggle.com/c/axa-driver-telematics-
+analysis/forums}\label{fn:1}}.
+
+\item After the fingerprints generated, we could test using these fingerprints to do routes 
+recommendation. We could model this problem as a structured prediction problem as shown in 
+the next section.
 \end{itemize}
 
 A simple search in google scholar returned noting on the same topic. 
 
-\section{Resources}
+\section{Methods}
 
-In 2014, a similar Kaggle challenge \footnote{\url{https://www.kaggle.com/c/axa-driver-telematics-
-analysis/forums}} tried to find good features and models to differ drivers based on their telematics
-data. It provide us many good ideas,  hands on experience and valuable tips.
-
+The Kaggle challenge tried to find good features and 
+models to differ drivers based on their telematics
+data. It provide us many good ideas,  hands on experience and valuable tips. 
 Github repositories \footnote{\url{https://www.kaggle.com/c/axa-driver-telematics-analysis/forums/t/12849/github-repos-now-live}} of the attendants of the challenge will give us a boost in the early
 development. 
 
+\subsection{Feature extraction}
+
+\paragraph{Routes geo features}
+These features are about what kind of routes one may like. 
+The features summaries the routes geographical characteristics.
+Such as the total distance, number of bends. elevations, environments (sea side, forest, city...). 
+
+\paragraph{Routes simplified geo features}
+The GPS contains lots of noise, we could use RDP algorithm \footnote{\url{https://en.wikipedia.org/wiki/
+Ramer?Douglas?Peucker_algorithm}} to simplify the routes and extract geo features again on the
+simple version.
+
+\paragraph{Route human features} These features are about in what ways, one like running or cycling
+their routes. Such as average speed, histogram of speed, percentiles of speed, accelerations, etc.
+
+\subsection{Fingerprint testing}
+Let a trip $t$ contains route geo features $g$ and human features $h$, i.e., $t = (g,h)$. Assume
+we have $n$ users indexed by $i$ and each user has $c_i$ trips indexed by $j$,  so the data is
+represented as $((t_j)_{j=1}^{c_i})_{i=1}^n$, then
+
+\begin{align*}
+t_j \sim M_i, \; j = 1, \ldots, c_i 
+\end{align*}
+
+where $M_i$ is the model of the $i^{th}$ user. The simplest model could be a multi-dimensional
+gaussian.  We could also using random forest, logistic regression or SVM which proved to be 
+useful in the Kaggle challenge. The criteria of the a good model is to differ trips of different users 
+with the model.
+
+\subsection{Routes recommendation}
+
+In this problem, we represent users by the human features and the trip by geo features,
+i.e. $h \in \cal{H}$, $g \in \cal{G}$. We map the users, trips into a joint space $\cal{H} \otimes
+\cal{G}$. Then for each user, we have the following model:
+
+\begin{align}
+\min_{\mathbf{w}} &\quad \frac{1}{2} ||\mathbf{w}||^2 \nonumber \\
+s.t. &\quad \mathbf{w}^T(h_j \otimes g_j)  \geq \mathbf{w}^T(h_j\otimes g_t) \quad \text{for}\, j \in T_i, t \in T \setminus T_i,
+\end{align}
+where $T_i$ is the set of trips of $i^{th}$ user and $T$ is the set of trips not belong to $i^{th}$ user. 
+When the $i^{th}$ user go to another (or the same) place, we first find all the trips $T_y$ from other 
+people in the same area and represent the trips only by geo features $T_y = (g_t)_{t=1}^{|T_y|}$, then 
+we rank the routes based on the scores (pre-image):
+
+\begin{align}
+\max_{g_t\in T_y} \sum_{j\in T_i}\mathbf{w}^T(h_j\otimes g_t).
+\end{align}
+
+The above can be done in kernel space if the number of trips is not very large.
 
 \bibliographystyle{natbib}
 \bibliography{plan}
