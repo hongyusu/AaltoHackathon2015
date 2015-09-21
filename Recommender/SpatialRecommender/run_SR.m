@@ -3,6 +3,9 @@
 function run_SR
 % wrapper function for running Spatial Recommender (SR)
 
+    % generate toy example
+    [adj,X] = generate_toy_example();
+
     fea = randn(1000,2000);
     fea = fea - min(min(fea));
 
