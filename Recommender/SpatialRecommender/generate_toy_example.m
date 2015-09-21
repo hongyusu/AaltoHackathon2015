@@ -9,23 +9,30 @@ function [adj,X] = generate_toy_example
     % define random seed
     rand('twister',0)
     
+    % number of vertices in the graph
+    vNum = 5000;
+    % number of record
+    recordNum = 40;
+    
     % generate adjacenty matrix
-    adj = zeros(2000,2000);
-    for i=1:2000
+    adj = zeros(vNum,vNum);
+    for i=1:(vNum-1)
         adj(i,i+1) = 1;
     end
-    adj(1000,1001) = 0;
+    adj(vNum/2,vNum/2+1) = 0;
     
     % generate running record
-    X = zeros(200,2000);
-    for i=1:size(X,1)
-        if i<=100
-            posStart = randsample(1:500,1);
-        else
-            posStart = randsample(1001:1500,1);
+    X = zeros(recordNum,vNum);
+    for i=1:recordNum
+        for k=1:2
+            if i<=recordNum/2
+                posStart = randsample(1:(vNum/2-100),1);
+            else
+                posStart = randsample((vNum/2+1):(vNum-100),1);
+            end
+            posEnd   = posStart + randsample(100:200,1);
+            X(i,posStart:posEnd) = ones(1,posEnd-posStart+1);
         end
-        posEnd   = posStart + randsample([100:200],1);
-        X(i,posStart:posEnd) = ones(1,posEnd-posStart+1);
     end
     
 end
