@@ -105,7 +105,7 @@ while tryNo < nRepeat
         
         if alpha > 0
             WV = W*V;
-            DV = D*V;
+            DV = D*V + 100*V;
             
             XU = XU + WV;
             VUU = VUU + DV;
