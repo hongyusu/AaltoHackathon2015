@@ -6,7 +6,7 @@ function run_SR
     rand('twister',0);
     
     % generate toy example
-    [adj,X] = generate_toy_example(10000,400,1000:2000);
+    [adj,X] = generate_toy_example(3000,40,800:1000);
     % normalization
     X = X./repmat(sqrt(sum(X.*X,2)),1,size(X,2));
     
@@ -24,7 +24,7 @@ function run_SR
     XdNMF(X~=0) = 0;
     
     % SNMF learning
-	options.alpha = 200;
+	options.alpha = 0.9;
     [Us,Vs] = GNMF(X,nClass,adj,options);
     XpSNMF = Us*Vs';    
     XdSNMF = XpSNMF;

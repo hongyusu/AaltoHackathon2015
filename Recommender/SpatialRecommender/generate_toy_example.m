@@ -26,7 +26,7 @@ function [adj,X] = generate_toy_example(vNum,recordNum,lenInterval)
     % generate running record
     X = zeros(recordNum,vNum);
     for i=1:recordNum
-        for k=1:10
+        for k=1:1
             if i<=recordNum/2
                 len      = round(randsample(lenInterval,1)/2);
                 posStart = max(randsample(1:vNum/2,1)-len,1);
