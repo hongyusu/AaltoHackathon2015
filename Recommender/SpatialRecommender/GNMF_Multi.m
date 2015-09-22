@@ -45,6 +45,7 @@ end
 meanFitRatio = options.meanFitRatio;
 
 alpha = options.alpha;
+beta = options.beta;
 
 Norm = 2;
 NormV = 0;
@@ -105,11 +106,17 @@ while tryNo < nRepeat
         
         if alpha > 0
             WV = W*V;
-            DV = D*V + 100*V;
+            DV = D*V ;
             
             XU = XU + WV;
             VUU = VUU + DV;
         end
+        
+        if beta > 0
+            VUU = VUU + beta*V;
+        end
+        
+        
         
         V = V.*(XU./max(VUU,1e-10));
         

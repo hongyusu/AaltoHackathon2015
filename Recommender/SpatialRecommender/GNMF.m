@@ -36,7 +36,7 @@ function [U_final, V_final, nIter_final, objhistory_final] = GNMF(X, k, W, optio
 %
 %   Written by Deng Cai (dengcai AT gmail.com)
 %
-
+rand('twister',0);
 if min(min(X)) < 0
     error('Input should be nonnegative!');
 end

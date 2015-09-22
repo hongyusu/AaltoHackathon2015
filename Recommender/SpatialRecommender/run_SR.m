@@ -18,13 +18,15 @@ function run_SR
     
     % NMF learning
     options.alpha = 0;
+    options.beta = 0;
     [Un,Vn] = GNMF(X,nClass,[],options);
     XpNMF = Un*Vn';    
     XdNMF = XpNMF;
     XdNMF(X~=0) = 0;
     
     % SNMF learning
-	options.alpha = 0.9;
+	options.alpha = 1e2;
+    options.beta = 1e6;
     [Us,Vs] = GNMF(X,nClass,adj,options);
     XpSNMF = Us*Vs';    
     XdSNMF = XpSNMF;
