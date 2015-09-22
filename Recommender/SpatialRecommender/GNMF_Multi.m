@@ -67,8 +67,8 @@ end
 
 selectInit = 1;
 if isempty(U)
-    U = abs(rand(mFea,k));
-    V = abs(rand(nSmp,k));
+    U = abs(rand(mFea,k))*0;
+    V = abs(rand(nSmp,k))*0;
 else
     nRepeat = 1;
 end
